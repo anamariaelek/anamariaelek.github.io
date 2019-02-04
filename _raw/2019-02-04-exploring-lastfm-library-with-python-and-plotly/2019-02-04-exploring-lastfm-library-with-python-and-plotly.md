@@ -269,8 +269,8 @@ datetimeloved.sort_values().describe()
 
 
 
-    count                     637
-    unique                    496
+    count                     635
+    unique                    495
     top       2014-03-01 13:18:00
     freq                        9
     first     2014-03-01 11:14:00
@@ -447,7 +447,7 @@ plt.show()
 ![]({{ site.baseurl }}/assets/img/2019-02-04-exploring-lastfm-library-with-python-and-plotly/output_19_0.png)
 
 
-Broadly speaking thare is no strong shift in the distribution of scrobbles for songs by different artists - this is no surprise to me, since I try to listen to as many songs by any artist I like, which ultimately leads to the fact that the distribution of plays spans the range from one or a few (for the songs I didn't particularly like) to about 100 or more plays (for the songs which I *really* liked and often listened to).  
+Generally speaking, thare is no strong shift in the distribution of scrobbles for songs by different artists - this is no surprise to me, since I try to listen to as many songs by any artist I like, which ultimately leads to the fact that the distribution of plays spans the range from one or a few (for the songs I didn't particularly like) to about 100 or more plays (for the songs which I *really* liked and often listened to).  
   
 What's interesting to see, however, is the IQR for the artists in the top (i.e. left) half of the plot. The ones with the wide IQR are actually my real favourites, because I listened to many of their songs, and often. I mean, look at how nice the dots are spread for The Proclaimers, Dropkick Murphys or U2! On the other hand, the ones with a high play count but a narrow IQR are among the top artists because of several of their songs which I liked, but otherwise I didn't listen to them that extensively - e.g. Sleeping at Last (can't remember any album, really, just know maybe half-a-dozen songs), Arctic Monkeys (I admit it, besides AM, I like just several of the older songs), the Dubliners (this is mostly the classics, which were also covered by everyone and their brother). OK, I'll not go on, you get the point.  
   
