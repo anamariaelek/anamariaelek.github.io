@@ -9,21 +9,21 @@ tags: [python, plotly]
 feature-img: "assets/img/2019-02-04-exploring-lastfm-library-with-python-and-plotly/plt.jpg"
 ---
 
-I suffer from a self-diagnosed light version of OCD and I generaylly put some effort in tracking the things I do - be it work or leisure. So it should come as no surprise that I track which books I read on Goodreads, or what music I listen to on last.fm. In this post I'll explore my music library scrapped from the latter.  
+I suffer from a self-diagnosed light version of OCD and I generally put some effort in keeping track of the things I do - be it work or leisure. So it should come as no surprise that I track which books I read on Goodreads, or what music I listen to on last.fm. In this post I'll explore my music library scrapped from the latter.  
 
 ### Scrapping and tidying the data
 Frustraitingly enough, [last.fm](last.fm) doesn't offer a built-in faeture for exporting your data, so here's a handy python [script](https://gist.github.com/anamariaelek/7d267871fd09ee7ee1380960fb83a732) to do that. Call it with the username argument (`-u`) to get all of the scrobbles from the user's library in the output csv file (`-o`).
 
 
 ```bash
-#lastexport.py -u anamariaelek -o exported_data.csv
+lastexport.py -u anamariaelek -o exported_data.csv
 ```
 
 The script could also be called with `-t` argument set to `loved` or `banned` to retrieve the respective tracks (the default value for thi parameter is `scrobbles`).
 
 
 ```bash
-#lastexport.py -u anamariaelek -t loved -o exported_loved.csv
+lastexport.py -u anamariaelek -t loved -o exported_loved.csv
 ```
 
 Next thing, import the downloaded data in Python.
@@ -588,8 +588,8 @@ First thing you'll likely notice is that I didn't scrobble almost any music in t
 ![]({{ site.baseurl }}/assets/img/2019-02-04-exploring-lastfm-library-with-python-and-plotly/plotly_capture.png)
 
 If you turn on the compare mode here (find it on among options in the top right corner) you can see counts for different artists on hover. Amazing stuff.  
-So yeah, I listened to a few different ones recently, but Arctic Monkeys stood out, followed by LP, then the Vaccines, and in the 2019 the Airborne Toxic Event. Oh yes, I love those guys! Nice beat, amazing lyrics. Don't care if a certain someone thinks they always play the same three chords 😃. Ok, ok, I'll stop now. But if that sparked your interest, you might want to inspect your own last.fm library in a similar way and maybe post some nice plots below in the comments. I'll put on some <span title="Afraid to love, afraid to lose; afraid to start, afraid to choose; afraid to live, afraid to die, afraid to let these days slip by; afraid to change or stay the same, afraid to lose yourself again, afraid of this truth... that love could cause you so much pain.">[🎧🎵](https://youtu.be/g275QAyXbrA?t=101)</span> in the meantime.
+So yeah, I listened to a few different ones recently, but Arctic Monkeys stood out, followed by LP, then the Vaccines, and in the 2019 the Airborne Toxic Event. Oh yes, I love those guys! Nice beat, amazing lyrics. Don't care if a certain someone thinks they always play the same three chords 😃 Ok, ok, I'll stop now. But if that sparked your interest, you might want to inspect your own last.fm library in a similar way and maybe post some nice plots below in the comments. I'll put on some <span title="Afraid to love, afraid to lose; afraid to start, afraid to choose; afraid to live, afraid to die, afraid to let these days slip by; afraid to change or stay the same, afraid to lose yourself again, afraid of this truth... that love could cause you so much pain.">[🎧🎵](https://youtu.be/g275QAyXbrA?t=101)</span> in the meantime.
 
 # Resources
-* The Python 3 [script](https://gist.github.com/anamariaelek/7d267871fd09ee7ee1380960fb83a732) for scrapping last.fm library (and the original Python 2 [version](https://gist.github.com/bitmorse/5201491)) can be downoladed from GitHub Gists
+* The [script](https://gist.github.com/anamariaelek/7d267871fd09ee7ee1380960fb83a732) for scrapping last.fm library ported for Python 3.6, as well as the original Python 2.7 [version](https://gist.github.com/bitmorse/5201491)) can be downoladed from GitHub Gists
 * [Plotly](Plot.ly) provides amazing libraries for interactive visualization in Python, R and JavaScript.
