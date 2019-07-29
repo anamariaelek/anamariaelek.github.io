@@ -167,4 +167,3 @@ Combining the two AM graphs with different simple curves, we can come close to r
 
 The function I used is modified from the following [Quora answer](https://qr.ae/TUhwlT).  
 The animation is brought to you by [gganimate](github.com/thomasp85/gganimate).  
-You can read this post --- and many, many more about all things R --- on [R bloggers](https://www.r-bloggers.com/).

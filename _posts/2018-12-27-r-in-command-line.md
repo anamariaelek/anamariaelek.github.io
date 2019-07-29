@@ -119,5 +119,3 @@ script.R input.vcf -o snv.rds
 * [r](http://dirk.eddelbuettel.com/code/littler.html)
 * [R CMD BATCH](https://stat.ethz.ch/R-manual/R-devel/library/utils/html/BATCH.html)
 * [docopt](https://github.com/docopt/docopt.R) and [docopt implementation in R](http://docopt.org/)  
-
-You can read this post --- and many, many more about all things R --- on [R bloggers](https://www.r-bloggers.com/).

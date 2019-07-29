@@ -318,4 +318,3 @@ The whole analysis pipline is available as the bash script in the [GitHub Gist](
 
 Read more about Entrez Utilities in the [NCBI Help Manual](https://www.ncbi.nlm.nih.gov/books/NBK25497/#chapter2.Introduction).  
 If you are a fan of point-and-clicking in your web browser, but still could use an arbitrary E-utility pipeline, look at the [EBot](https://www.ncbi.nlm.nih.gov/Class/PowerTools/eutils/ebot/ebot.cgi) which can generate Perl scripts for you.  
-You can read this post --- and many, many more about all things R --- on [R bloggers](https://www.r-bloggers.com/).
