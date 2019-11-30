@@ -9,6 +9,8 @@ tags: [R]
 feature-img: "assets/img/2019-07-29-personal-r-library-on-a-cluster/library.jpg"
 ---
 
+Whats and hows about the location of your R library.
+
 There are several R related enviroment variables:  
 
 * `R_HOME` = directory where R is installed  
