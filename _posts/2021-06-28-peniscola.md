@@ -87,8 +87,6 @@ images:
   - type: horizontal
     id: 75
   - type: horizontal
-    id: 75
-  - type: horizontal
     id: 74
   - type: horizontal
     id: 41
