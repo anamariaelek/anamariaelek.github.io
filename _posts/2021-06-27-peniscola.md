@@ -2,17 +2,17 @@
 layout: post
 title: Peñíscola
 date: 2021-06-27
-s3-base: https://anamaria-elek-hr.s3.eu-central-1.amazonaws.com/2021-06-27-peniscola/
+s3-base: https://anamaria-elek-hr.s3.eu-central-1.amazonaws.com/2021-06-27-peniscola
 images:
   - type: horizontal
     id: 1
   - type: horizontal
     id: 3
-   - type: horizontal
+  - type: horizontal
     id: 2
   - type: horizontal
     id: 4
-   - type: vertical
+  - type: vertical
     id: 1
 ---
 
