@@ -10,9 +10,9 @@ images:
     id: 3
    - type: horizontal
     id: 2
-  - type:  - type: horizontal
+  - type: horizontal
     id: 4
-   vertical
+   - type: vertical
     id: 1
 ---
 
