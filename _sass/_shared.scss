@@ -1,0 +1,54 @@
+.wrap {
+  position: relative;
+
+  .navbar {
+    background: #fff;
+    border-radius: 0;
+
+    a {
+      color: #333;
+      font-size: 26px;
+      padding-top: 30px;
+      text-shadow: none;
+
+      &:hover {
+        background: none;
+        color: #A731A7;
+      }
+    }
+  }
+  .face {
+    z-index: 10;
+    height: 75px;
+    width: 75px;
+    border-radius: 100px;
+    left: 30px;
+    top: 2px;
+    position: absolute;
+  }
+  .header-image {
+    width: 100%;
+    height: 300px;
+  }
+  .header-content {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    color: white;
+  }
+  .post-title {
+    font-weight: 900;
+    font-size: 60px;
+    text-align: left;
+    padding-left: 30px;
+  }
+}
+
+article {
+  margin-top: 80px;
+  font-size: 24px;
+}
+
+.rip {
+  color: #B91919 !important;
+}

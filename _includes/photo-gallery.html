@@ -1,0 +1,29 @@
+<div class="photo-gallery">
+  <div class="grid">
+    {% for image in page.images %}
+      <a href="{{page.s3-base}}/full/{{image.type}}/{{image.id}}.jpg" data-lightbox="lb" data-title="My caption">
+        <img class="grid-item {% if image.type == "vertical" %}grid-item--height2{% endif %} {% if image.type == "pano" %}grid-item--width2{% endif %}" src="{{page.s3-base}}/thumb/{{image.type}}/{{image.id}}.jpg">
+      </a>
+    {% endfor %}
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+  var singleColumnWidth;
+  var gridWidth = Math.floor((window.innerWidth * .97 - 20));
+
+  if(window.innerWidth < 800 ) {
+    gridWidth = gridWidth - 20;
+	  singleColumnWidth = gridWidth;
+  } else {
+    singleColumnWidth = gridWidth / 3
+  };
+
+  var gridItemHeight = singleColumnWidth * .7
+  $('.grid').css({ "width": gridWidth});
+  $('.grid-item').css({ "width": singleColumnWidth, "height": gridItemHeight});
+  $('.grid-item--width2').css({ "width": gridWidth});
+  $('.grid-item--height2').css({ "height": gridItemHeight * 2});
+</script>

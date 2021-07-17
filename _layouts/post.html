@@ -1,27 +1,36 @@
 ---
 layout: default
 ---
-<article {% if page.feature-img %}class="feature-image"{% endif %}>
-  <header style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')">
-    <h1 class="title">{{ page.title }}</h1>
-    {% if page.subtitle %}<h2 class="subtitle">{{ page.subtitle }}</h2>{% endif %}
-    <p class="meta">
-      {{ page.date | date: "%B %-d, %Y" }}
-      {% if page.author %} - {{ page.author }}{% endif %}
-    </p>
-  </header>
-  <section class="post-content">{{ content }}</section>
-  {% include tags_list.html tags=page.tags tag_count=page.tags.size %}
-</article>
+<div class="post">
 
-<!-- Disqus -->
-{% if site.theme_settings.disqus_shortname %}
-<div class="comments">
-  {% include disqus.html %}
+  <div class="post-nav">
+    {% if page.nexturl %}
+      <a href="{{ page.nexturl }}">&laquo; Next</a>
+    {% endif %}
+
+    {% if page.previousurl and page.nexturl %}
+      |
+    {% endif %}
+
+    {% if page.previousurl %}
+      <a href="{{ page.previousurl }}">Previous &raquo;</a>
+    {% endif %}
+  </div>
+
+  <div class="wrapper">
+    <div class="row">
+      <div class="col-xs-12">
+        <header class="post-header">
+          <h1 class="post-title">{{ page.title }}</h1>
+        </header>
+
+        {% include photo-gallery.html %}
+
+        <article class="post-content">
+          {{ content }}
+        </article>
+      </div>
+    </div>
+  <div>
+
 </div>
-{% endif %}
-
-<!-- Post navigation -->
-{% if site.theme_settings.post_navigation %}
-  {% include post_nav.html %}
-{% endif %}
