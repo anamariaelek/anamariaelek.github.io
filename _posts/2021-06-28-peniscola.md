@@ -1,0 +1,165 @@
+---
+layout: post
+title: Peñíscola
+date: 2021-06-28
+s3-base: https://anamaria-elek-hr.s3.eu-central-1.amazonaws.com/2021-06-28-peniscola
+images:
+  - type: horizontal
+    id: 12
+  - type: horizontal
+    id: 1
+  - type: horizontal
+    id: 7
+  - type: horizontal
+    id: 6
+  - type: horizontal
+    id: 5
+  - type: horizontal
+    id: 4
+  - type: horizontal
+    id: 3
+  - type: horizontal
+    id: 2
+  - type: horizontal
+    id: 8
+  - type: vertical
+    id: 1
+  - type: horizontal
+    id: 9
+  - type: horizontal
+    id: 10
+  - type: horizontal
+    id: 11
+  - type: horizontal
+    id: 13 
+  - type: horizontal
+    id: 14
+  - type: horizontal
+    id: 17
+  - type: horizontal
+    id: 16
+  - type: horizontal
+    id: 15
+  - type: horizontal
+    id: 19
+  - type: horizontal
+    id: 35
+  - type: horizontal
+    id: 20
+  - type: horizontal
+    id: 21
+  - type: horizontal
+    id: 22
+  - type: horizontal
+    id: 23
+  - type: horizontal
+    id: 24
+  - type: horizontal
+    id: 25
+  - type: horizontal
+    id: 26
+  - type: horizontal
+    id: 27
+  - type: horizontal
+    id: 28
+  - type: horizontal
+    id: 29
+  - type: horizontal
+    id: 30
+  - type: horizontal
+    id: 31
+  - type: horizontal
+    id: 32
+  - type: horizontal
+    id: 40
+  - type: horizontal
+    id: 33
+  - type: horizontal
+    id: 34
+  - type: horizontal
+    id: 36
+  - type: horizontal
+    id: 37
+  - type: horizontal
+    id: 38
+  - type: horizontal
+    id: 39
+  - type: horizontal
+    id: 75
+  - type: horizontal
+    id: 75
+  - type: horizontal
+    id: 74
+  - type: horizontal
+    id: 41
+  - type: horizontal
+    id: 42
+  - type: horizontal
+    id: 43
+  - type: horizontal
+    id: 44
+  - type: horizontal
+    id: 45
+  - type: horizontal
+    id: 46
+  - type: horizontal
+    id: 47
+  - type: horizontal
+    id: 48
+  - type: horizontal
+    id: 49
+  - type: horizontal
+    id: 50
+  - type: horizontal
+    id: 51
+  - type: horizontal
+    id: 52
+  - type: horizontal
+    id: 53
+  - type: horizontal
+    id: 54
+  - type: horizontal
+    id: 55
+  - type: horizontal
+    id: 56
+  - type: horizontal
+    id: 57
+  - type: horizontal
+    id: 58
+  - type: horizontal
+    id: 59
+  - type: horizontal
+    id: 60
+  - type: horizontal
+    id: 61
+  - type: horizontal
+    id: 62
+  - type: horizontal
+    id: 63
+  - type: horizontal
+    id: 64
+  - type: horizontal
+    id: 65
+  - type: horizontal
+    id: 66
+  - type: horizontal
+    id: 67
+  - type: horizontal
+    id: 68
+  - type: horizontal
+    id: 69
+  - type: horizontal
+    id: 70
+  - type: horizontal
+    id: 71
+  - type: horizontal
+    id: 72
+  - type: horizontal
+    id: 73
+---
+
+Peñíscola, a cozy town in province of Castellón, Valencia.  
+Two hours train ride away from Barcelona, it is quite popular - mostly among Spanish tourists, it would seem, because we didn't hear a single person speaking English during the three days we spent there. It could be because of COVID, however.  
+This town's most iconic features are the long sandy beach and the historic castle that used to be home of the templars, and later of an illegitimate pope. Quite a few hotels, restaurants and streets here are named after Papa Luna, so I imagine he was not such negative personality as his failed papal aspirations might suggest.  
+Also worth checking out is the nearby natural park La Sierra de Irta, a nice place to combine hiking and swimming - even though one probably shouldn't do it at noon, as we did.  
+And you couldn't miss paella even if you wanted too.
