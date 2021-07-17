@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eSearchResult PUBLIC "-//NLM//DTD esearch 20060628//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20060628/esearch.dtd">
+<eSearchResult><Count>263</Count><RetMax>20</RetMax><RetStart>0</RetStart><QueryKey>1</QueryKey><WebEnv>NCID_1_225424193_130.14.22.32_9001_1543836825_38424158_0MetA0_S_MegaStore</WebEnv><IdList>
+<Id>30078113</Id>
+<Id>29934497</Id>
+<Id>29907938</Id>
+<Id>29762673</Id>
+<Id>29746643</Id>
+<Id>29738477</Id>
+<Id>29730317</Id>
+<Id>29664968</Id>
+<Id>29664912</Id>
+<Id>29579049</Id>
+<Id>29567708</Id>
+<Id>29526926</Id>
+<Id>29520598</Id>
+<Id>29511180</Id>
+<Id>29504486</Id>
+<Id>29494648</Id>
+<Id>29454699</Id>
+<Id>29382070</Id>
+<Id>29330119</Id>
+<Id>29311585</Id>
+</IdList><TranslationSet><Translation>     <From>Metagenome[mesh]</From>     <To>"metagenome"[MeSH Terms]</To>    </Translation><Translation>     <From>Gastrointestinal Microbiome[mesh]</From>     <To>"gastrointestinal microbiome"[MeSH Terms]</To>    </Translation></TranslationSet><TranslationStack>   <TermSet>    <Term>"metagenome"[MeSH Terms]</Term>    <Field>MeSH Terms</Field>    <Count>5328</Count>    <Explode>Y</Explode>   </TermSet>   <TermSet>    <Term>"gastrointestinal microbiome"[MeSH Terms]</Term>    <Field>MeSH Terms</Field>    <Count>7394</Count>    <Explode>Y</Explode>   </TermSet>   <OP>AND</OP>   <TermSet>    <Term>2008[PDAT]</Term>    <Field>PDAT</Field>    <Count>0</Count>    <Explode>N</Explode>   </TermSet>   <TermSet>    <Term>2018[PDAT]</Term>    <Field>PDAT</Field>    <Count>0</Count>    <Explode>N</Explode>   </TermSet>   <OP>RANGE</OP>   <OP>AND</OP>   <TermSet>    <Term>Journal Article[ptyp]</Term>    <Field>ptyp</Field>    <Count>27322091</Count>    <Explode>Y</Explode>   </TermSet>   <OP>AND</OP>  </TranslationStack><QueryTranslation>"metagenome"[MeSH Terms] AND "gastrointestinal microbiome"[MeSH Terms] AND 2008[PDAT] : 2018[PDAT] AND Journal Article[ptyp]</QueryTranslation></eSearchResult>

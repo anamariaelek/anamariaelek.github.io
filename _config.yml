@@ -1,0 +1,84 @@
+# SITE CONFIGURATION
+baseurl: ""
+url: "https://anamaria.elek.hr"
+
+# THEME-SPECIFIC CONFIGURATION
+theme_settings:
+  # Meta
+  title: Anamaria Elek
+  avatar: #"assets/img/profile.jpg"
+  favicon: "assets/favicon.ico"
+  gravatar: #"fc8643dc9d4be5ed70afd45263bdf79e"
+  description: "Biology, bioinformatics, statistics, machine learning, next generation sequencing, personalized medicine... to be continued."
+
+  # Header and footer text
+  header_text: >
+     <h1></h1>
+     <h1>...</h1>
+     <h1></h1>
+  header_text_feature_image: "assets/img/feature_img.jpg"
+  footer_text: >
+   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
+
+  # Icons
+  behance:
+  bitbucket:
+  dribbble:
+  email_address: anamariaelek@gmail.com
+  facebook: "anamaria.elek"
+  flickr:
+  github: "anamariaelek"
+  gitlab:
+  google_plus:
+  instagram:
+  linkedin:  https://www.linkedin.com/in/anamaria-elek/
+  pinterest:
+  reddit:
+  rss: 
+  soundcloud:
+  stack_exchange:  # Full URL
+  steam:
+  tumblr:
+  twitter: "anamariaelek"
+  wordpress:
+  youtube:
+
+  # Scripts
+  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  disqus_shortname: anamariaelek
+  katex: true # Enable if using math markup
+  search: false # Enable the search feature
+
+  # Localization strings
+  str_follow_on: "Follow on"
+  str_rss_follow: "Follow RSS feed"
+  str_email: "Email"
+  str_next_post: "Next post"
+  str_previous_post: "Previous post"
+  str_next_page: "Next"
+  str_previous_page: "Prev"
+  str_continue_reading: "Continue reading"
+  str_javascript_required_disqus: "Please enable JavaScript to view comments."
+  str_search_no_results: "No results found."
+
+  # Colours, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
+
+  # Post navigation
+  post_navigation: true
+
+# PAGINATION
+paginate: 5
+paginate_path: "blog/page:num"
+
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: :expanded # You might prefer to minify using :compressed
+plugins: [jekyll-paginate]
+exclude:
+  - Gemfile
+  - Gemfile.lock
