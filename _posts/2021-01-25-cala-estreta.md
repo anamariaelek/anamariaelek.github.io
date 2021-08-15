@@ -81,5 +81,5 @@ images:
   - type: horizontal
     id: 47
 ---
-
+A little bit of hiking, a whole lot of beautiful views, sea and the sun. Esentially, a perfect beach day.
 
