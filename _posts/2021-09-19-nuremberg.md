@@ -2,7 +2,7 @@
 layout: post
 title: Nürnberg 
 date: 2021-09-19
-s3-base: https://anamaria-elek-hr.s3.eu-central-1.amazonaws.com/2021-09-18-nuremberg
+s3-base: https://anamaria-elek-hr.s3.eu-central-1.amazonaws.com/2021-09-19-nuremberg
 images:
   - type: horizontal
     id: 1
