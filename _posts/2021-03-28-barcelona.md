@@ -62,6 +62,3 @@ images:
     id: 23
 ---
 
-*Barcelona es la ciudad que grita, que maquina, que lucha y que enamora.*  
-Irene Polo  
-Also featuring Badalona, Vilassar de Mar, El Papiol...

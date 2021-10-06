@@ -156,8 +156,3 @@ images:
     id: 73
 ---
 
-Peñíscola, a cozy town in province of Castellón, Valencia.  
-Two hours train ride away from Barcelona, it is quite popular - mostly among Spanish tourists, it would seem, because we didn't hear a single person speaking English during the three days we spent there. It could be because of COVID, however.  
-Town's most iconic features are the long sandy beach and the historic castle that used to be home of the templars, and later of an illegitimate pope. Quite a few hotels, restaurants and streets here are named after Papa Luna, so I imagine he was not such negative personality as his failed papal aspirations might suggest.  
-Also worth checking out is the nearby natural park La Sierra de Irta, a nice place to combine hiking and swimming - even though one probably shouldn't do it at noon, as we did.  
-And you couldn't miss paella even if you wanted too.
