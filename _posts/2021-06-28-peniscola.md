@@ -47,7 +47,7 @@ images:
   - type: horizontal
     id: 21
   - type: horizontal
-    id: 22
+    id: 34
   - type: horizontal
     id: 23
   - type: horizontal
@@ -69,21 +69,9 @@ images:
   - type: horizontal
     id: 32
   - type: horizontal
-    id: 40
-  - type: horizontal
     id: 35
   - type: horizontal
     id: 36
-  - type: horizontal
-    id: 37
-  - type: horizontal
-    id: 38
-  - type: horizontal
-    id: 39
-  - type: horizontal
-    id: 75
-  - type: horizontal
-    id: 74
   - type: horizontal
     id: 41
   - type: horizontal
@@ -93,7 +81,13 @@ images:
   - type: horizontal
     id: 33
   - type: horizontal
-    id: 34
+    id: 22
+  - type: horizontal
+    id: 37
+  - type: horizontal
+    id: 75
+  - type: horizontal
+    id: 74
   - type: horizontal
     id: 44
   - type: horizontal
@@ -154,8 +148,6 @@ images:
     id: 72
   - type: horizontal
     id: 73
-  - type: horizontal
-    id: 74
   - type: horizontal
     id: 75
   - type: horizontal
