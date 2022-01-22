@@ -4,6 +4,7 @@ title: Anamaria Elek
 permalink: /
 ---
 
+
 <p align="center">
 <a href="mailto:anamariaelek@gmail.com"><svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:steelblue;overflow:visible;position:relative;"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path></svg></a> | 
 <a href="https://www.linkedin.com/in/anamaria-elek/"><svg aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:steelblue;overflow:visible;position:relative;"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg></a> | 
@@ -15,28 +16,18 @@ permalink: /
 
 <p></p>
 
-I’m a PhD student at [Centre for Genomic Regulation (CRG)](https://www.crg.eu/) in Barcelona, Spain, in the group of [Arnau Sebé Pedrós](https://www.sebepedroslab.org/). I am interested in comparative genomics and gene regulation in the context of cell type evolution in early metazoans. On a day-to-day basis, this means I am analyzing and interpreting single cell transcriptomics and chromatin profiling data, with the focus on transcription factor usage, motifs and gene regulatory networks modeling.  
 
-<p align="center">
-<img src="static/images/chord.png"
-     alt="compartive-cell-types"/>
-</p> 
-   
+I’m a PhD student at <a href="https://www.crg.eu/" target="_blank">Centre for Genomic Regulation (CRG)</a> in Barcelona, Spain, in the group of <a href="https://www.sebepedroslab.org/" target="_blank">Arnau Sebé Pedrós</a>. I am interested in comparative genomics and gene regulation, which I'm studying in the context of cell type evolution in early metazoans. To this end, I am analyzing single cell transcriptomics and chromatin profiling data, and using it to model cell type specific gene regulatory logic.  
+
+<img src="static/images/chord.png" alt="compartive-cell-types" class="centerimage" width=250>
  
-I obtained my Master of Science degree at University of Zagreb, Croatia. I worked in Bioinformatics group and developed [coRdon](https://github.com/BioinfoHR/coRdon), a Bioconductior package for the analysis of codon usage. I later also worked as a Bioinformatician at the Institute for Cancer research in London, UK.
+I obtained my Master of Science degree from the University of Zagreb, Croatia, whee I worked in the <a href="http://www.bioinfo.hr" target="_blank">Bioinformatics Group</a> and developed <a href="https://www.bioconductor.org/packages/release/bioc/html/coRdon.html" target="_blank">coRdon</a>, a Bioconductior package for the analysis of codon usage. Later I also worked as a bioinformatician in the Genomics Facility at <a href="https://www.icr.ac.uk/" target="_blank">The Institute of Cancer Research</a> in London, UK.
 
-<p align="center">
-<img src="static/images/cordon.png"
-     alt="codon-usage"/>
-</p> 
+<img src="static/images/cordon.png" alt="codon-usage" class="centerimage" width=250>
 
-I am also a member of [NGSchool Society](https://ngschool.eu/), an NGO that supports bioinformatics community in Central and Eastern Europe. We organize training events for early career stage researchers in computational biology, including summer school and conferences, as well as [online worskops and lectures](https://www.youtube.com/c/NGSchoolEU). We are always on the look-out for new people, so if you want to join us, don't hesitate to [get in touch](mailto:aelek@ngschool.eu)!  
+I am a member of <a href="https://ngschool.eu/" target="_blank">NGSchool Society</a>, an NGO that supports bioinformatics community in Central and Eastern Europe. We organize training events for early career stage researchers in computational biology, including summer school and conferences, as well as <a href="https://www.youtube.com/c/NGSchoolEU" target="_blank">online worskops and lectures</a>. We are always on the look-out for new people, so if you want to join us, don't hesitate to [get in touch](mailto:aelek@ngschool.eu)!  
 
-<p align="center">
-<img src="static/images/ngschool.png"
-     alt="ngschool"/>
-</p> 
+<img src="static/images/ngschool.png" alt="ngschool" class="centerimage" width=250>
 
-
-I am originally from Croatia - which is a beautiful country and a perfect destination for your next holidays (I'm doing my patriotic bit here :) but it is really stunning). Currently I'm living in Barcelona. In my free time I like traveling, taking [photos](photos), hiking and running.  
+I am originally from Croatia - which is a beautiful country and a perfect destination for your next holidays (I'm doing my patriotic bit here :) but it is really stunning). Currently I'm living in Barcelona. In my free time I like traveling, taking <a href="photos" target="_blank">photos</a>, hiking and running.  
  
