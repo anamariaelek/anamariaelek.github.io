@@ -1,11 +1,12 @@
 # # Site settings
-title: Anamaria Elek
+# title: Anamaria Elek
 email: anamariaelek@gmail.com
-description: "You're on Earth. There's no cure for that." 
-# baseurl: "" # the subpath of your site, e.g. /blog/
+description: "© 2022 Anamaria Elek" 
+# baseurl: "/" # the subpath of your site, e.g. /blog/
 # url: "http://anamaria.elek.hr" # the base hostname & protocol for your site
-twitter_username: anamariaelek
-github_username: anamariaelek
+# twitter_username: anamariaelek
+# github_username: anamariaelek
+# linkedin_username: anamaria-elek
 # cdn_url: #the url of the bucket or cdn which holds your photos
 # # Build settings
 # markdown: kramdown
