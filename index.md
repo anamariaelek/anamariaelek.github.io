@@ -17,11 +17,11 @@ permalink: /
 <p></p>
 
 
-I’m a PhD student at <a href="https://www.crg.eu/" target="_blank">Centre for Genomic Regulation (CRG)</a> in Barcelona, Spain, in the group of <a href="https://www.sebepedroslab.org/" target="_blank">Arnau Sebé Pedrós</a>. I am interested in comparative genomics and gene regulation, which I'm studying in the context of cell type evolution in early metazoans. To this end, I am analyzing single cell transcriptomics and chromatin profiling data, and using it to model cell type specific gene regulatory logic.  
+I am a PhD student at <a href="https://www.crg.eu/" target="_blank">Centre for Genomic Regulation (CRG)</a> in Barcelona, Spain, in the group of <a href="https://www.sebepedroslab.org/" target="_blank">Arnau Sebé Pedrós</a>. I am interested in comparative genomics and gene regulation, which I am studying in the context of cell type evolution in early metazoans. To this end, I am analyzing single cell transcriptomics and chromatin profiling data, and using it to model cell type specific gene regulatory logic.  
 
 <img src="static/images/chord.png" alt="compartive-cell-types" class="centerimage" width=250>
  
-I obtained my Master of Science degree from the University of Zagreb, Croatia, whee I worked in the <a href="http://www.bioinfo.hr" target="_blank">Bioinformatics Group</a> and developed <a href="https://www.bioconductor.org/packages/release/bioc/html/coRdon.html" target="_blank">coRdon</a>, a Bioconductior package for the analysis of codon usage. Later I also worked as a bioinformatician in the Genomics Facility at <a href="https://www.icr.ac.uk/" target="_blank">The Institute of Cancer Research</a> in London, UK.
+I obtained my Master of Science degree from the University of Zagreb, Croatia, where I worked in the <a href="http://www.bioinfo.hr" target="_blank">Bioinformatics Group</a> and developed <a href="https://www.bioconductor.org/packages/release/bioc/html/coRdon.html" target="_blank">coRdon</a>, a Bioconductior package for the analysis of codon usage. Later I also worked as a bioinformatician in the Genomics Facility at <a href="https://www.icr.ac.uk/" target="_blank">The Institute of Cancer Research</a> in London, UK.
 
 <img src="static/images/cordon.png" alt="codon-usage" class="centerimage" width=250>
 
@@ -29,5 +29,5 @@ I am a member of <a href="https://ngschool.eu/" target="_blank">NGSchool Society
 
 <img src="static/images/ngschool.png" alt="ngschool" class="centerimage" width=250>
 
-I am originally from Croatia - which is a beautiful country and a perfect destination for your next holidays (I'm doing my patriotic bit here :) but it is really stunning). Currently I'm living in Barcelona. In my free time I like traveling, taking <a href="photos" target="_blank">photos</a>, hiking and running.  
+I am originally from Croatia - which is a beautiful country and a perfect destination for your next holidays (I'm doing my patriotic bit here :) but it is really stunning). Currently I am living in Barcelona. In my free time I enjoy reading, traveling, taking <a href="photos" target="_blank">photos</a>, hiking and running.  
  
