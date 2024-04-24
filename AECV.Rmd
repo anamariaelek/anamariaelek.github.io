@@ -39,7 +39,7 @@ my_orcid <- "0000-0002-3938-2494"
 ```{r}
 tribble(
   ~ Where, ~ Position, ~ Year, ~ Institution, ~ Why,
-  "Barcelona, ES", "PhD Student", "2019 - present", "Centre for Genomic Regulation", 
+  "Barcelona, ES", "PhD Student", "2019 - 2024", "Centre for Genomic Regulation", 
   c("PhD student in Comparative regulatory genomics group (Sebé-Pedrós lab)", 
     "Modeling cell type evolution using single-cell and chromatin profiling approaches"),
   "London, UK", "Bioinformatician", "2019", "The Institute of Cancer Research", 
@@ -89,15 +89,14 @@ orcid_bib <- rbind(orcid_bib, c(
 ))
 write.table(orcid_bib,"orcid.bib")
 bibliography_entries("orcid.bib") %>%
-  # arrange(desc(as.integer(stringr::str_extract(id,'\\d{4}$')))) %>%
-  dplyr::slice(c(3,1,2,4)) # arrange manually
+  arrange(desc(as.integer(stringr::str_extract(id,'\\d{4}$'))))
 
 ```
 
 ## Skills
 
-`r fa(name = "r-project", fill = "steelblue")` R programming | 
 `r fa(name = "python", fill = "steelblue")` Python |
+`r fa(name = "r-project", fill = "steelblue")` R programming | 
 `r fa(name = "linux", fill = "steelblue")` Linux/BASH |
 `r fa(name = "server", fill = "steelblue")` HPC computing |
 `r fa(name = "git-square", fill = "steelblue")` Git versioning |
@@ -120,7 +119,7 @@ data.table(
 ```{r}
 tribble(
   ~ date, ~ activity, ~ what, ~ type, ~ details,
-  "2020 - present", "NGSchool", "bioinformatics summer school", "educational", 
+  "2020 - 2022", "NGSchool", "bioinformatics summer school", "educational", 
   c("I have been working on scientific program and participants selection for the summer school.",
     "I was the speaker of two webinars (on R programming and single cell RNA-seq)",
     "and the mentor of a hackathon team of 10 people (working on RNA-seq analysis project).",
