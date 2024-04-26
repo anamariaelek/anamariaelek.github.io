@@ -37,13 +37,13 @@ permalink: /cv
 
 <body>
 
-```         
+         
 <link href="data:text/css;charset=utf-8,%0Ahtml%2C%20body%2C%20div%2C%20span%2C%20applet%2C%20object%2C%20iframe%2C%0Ah1%2C%20h2%2C%20h3%2C%20h4%2C%20h5%2C%20h6%2C%20p%2C%20blockquote%2C%20pre%2C%0Aa%2C%20abbr%2C%20acronym%2C%20address%2C%20big%2C%20cite%2C%20code%2C%0Adel%2C%20dfn%2C%20em%2C%20img%2C%20ins%2C%20kbd%2C%20q%2C%20s%2C%20samp%2C%0Asmall%2C%20strike%2C%20strong%2C%20sub%2C%20sup%2C%20tt%2C%20var%2C%0Ab%2C%20u%2C%20i%2C%20center%2C%0Adl%2C%20dt%2C%20dd%2C%20ol%2C%20ul%2C%20li%2C%0Afieldset%2C%20form%2C%20label%2C%20legend%2C%0Atable%2C%20caption%2C%20tbody%2C%20tfoot%2C%20thead%2C%20tr%2C%20th%2C%20td%2C%0Aarticle%2C%20aside%2C%20canvas%2C%20details%2C%20embed%2C%0Afigure%2C%20figcaption%2C%20footer%2C%20header%2C%20hgroup%2C%0Amenu%2C%20nav%2C%20output%2C%20ruby%2C%20section%2C%20summary%2C%0Atime%2C%20mark%2C%20audio%2C%20video%20%7B%0Amargin%3A%200%3B%0Apadding%3A%200%3B%0Aborder%3A%200%3B%0Afont%2Dsize%3A%20100%25%3B%0Afont%3A%20inherit%3B%0Avertical%2Dalign%3A%20baseline%3B%0A%7D%0A%0Aarticle%2C%20aside%2C%20details%2C%20figcaption%2C%20figure%2C%0Afooter%2C%20header%2C%20hgroup%2C%20menu%2C%20nav%2C%20section%20%7B%0Adisplay%3A%20block%3B%0A%7D%0Abody%20%7B%0Aline%2Dheight%3A%201%3B%0Abackground%2Dcolor%3A%20white%3B%0A%7D%0Aol%2C%20ul%20%7B%0Alist%2Dstyle%3A%20none%3B%0A%7D%0Ablockquote%2C%20q%20%7B%0Aquotes%3A%20none%3B%0A%7D%0Ablockquote%3Abefore%2C%20blockquote%3Aafter%2C%0Aq%3Abefore%2C%20q%3Aafter%20%7B%0Acontent%3A%20%27%27%3B%0Acontent%3A%20none%3B%0A%7D%0Atable%20%7B%0Aborder%2Dcollapse%3A%20collapse%3B%0Aborder%2Dspacing%3A%200%3B%0A%7D%0A%0Abody%20%7B%0Afont%3A%20normal%20normal%20400%3B%0Afont%2Dsize%3A%2080%25%3B%0Aline%2Dheight%3A%201%2E5em%3B%0A%0Afont%2Dfamily%3A%20Verdana%2Csans%2Dserif%3B%0Amargin%2Dtop%3A%201em%3B%0Amargin%2Dleft%3A%201em%3B%0A%7D%0Ap%20%7B%0Aposition%3A%20relative%3B%0Aleft%3A%2033%25%3B%0Amargin%2Dbottom%3A%200%2E7em%3B%0Amargin%2Dright%3A%200%3B%0Awidth%3A%2065%25%3B%0A%7D%0A%2Ecsl%2Dleft%2Dmargin%20%7B%0Aposition%3A%20relative%3B%0Afloat%3A%20left%3B%0Aleft%3A%2033%25%3B%0Amargin%2Dleft%3A%20%2D3em%3B%0Amargin%2Dbottom%3A%200%2E7em%3B%0Amargin%2Dright%3A%200%2E5em%3B%0A%7D%0A%2Ecsl%2Dright%2Dinline%20%7B%0Aposition%3A%20relative%3B%0Aleft%3A%2033%25%3B%0Amargin%2Dbottom%3A%200%2E7em%3B%0Amargin%2Dright%3A%200%3B%0Awidth%3A%2065%25%3B%0A%7D%0Acode%20%7B%0Afont%3A%20normal%20normal%3B%0Afont%2Dsize%3A%2070%25%3B%0A%0Afont%2Dfamily%3A%20Menlo%2Cmonospace%2Csans%2Dserif%3B%0Acolor%3A%20%23aaa%3B%0A%7D%0Ap%20code%20%7B%0Aposition%3A%20absolute%3B%0Aleft%3A%20%2D14%25%3B%0A%7D%0Aul%20%7B%0Aposition%3A%20relative%3B%0Aleft%3A%2033%25%3B%0Awidth%3A%2065%25%3B%0Amargin%2Dbottom%3A%201%2E5em%3B%0Amargin%2Dtop%3A%20%2D0%2E5em%3B%0A%7D%0A%0A%0Ali%20%7B%0A%0Apadding%2Dleft%3A%201%2E25em%3B%0Atext%2Dindent%3A%20%2D1%2E25em%3B%0A%0A%7D%0Ali%20ul%20%7B%0Aposition%3A%20relative%3B%0Aleft%3A%200%3B%0Awidth%3A%20100%25%3B%0Amargin%2Dtop%3A%200%2E25em%3B%0A%7D%0Ah1%2Ch2%2Ch3%2Ch4%20%7B%0Afont%2Dweight%3A%20400%3B%0Afont%2Dfamily%3A%20Cousine%2CVerdana%2Csans%2Dserif%3B%0Awidth%3A%2065%25%3B%0A%7D%0Ah1%20%7B%0Atext%2Dalign%3A%20left%3B%0Afont%2Dsize%3A%203em%3B%0Aline%2Dheight%3A%201em%3B%0Aposition%3A%20relative%3B%0Aleft%3A%2033%25%3B%0A%7D%0Ah1%2Bp%20%7B%0A%0Afont%2Dstyle%3A%20italic%3B%0Afont%2Dsize%3A%20110%25%3B%0A%7D%0Ah2%20%7B%0Afont%2Dsize%3A%201%2E1em%3B%0Acolor%3A%20%23a00%3B%0Amargin%2Dtop%3A%203em%3B%0Aposition%3A%20relative%3B%0Atop%3A%201%2E4em%3B%0Atext%2Dalign%3A%20right%3B%0Awidth%3A%2020%25%3B%0A%7D%0Ah3%20%7B%0Afont%2Dsize%3A%201em%3B%0Aline%2Dheight%3A%202em%3B%0Aposition%3A%20relative%3B%0Atop%3A%201%2E7em%3B%0Atext%2Dalign%3A%20right%3B%0Awidth%3A%2020%25%3B%0A%7D%0Aa%20%7B%0Acolor%3A%20inherit%3B%0A%0A%7D%0Aa%3Ahover%20%7B%0Acolor%3A%2339f%0A%7D%0A%23webaddress%20%7B%0Amargin%2Dtop%3A%201em%3B%0Aposition%3A%20relative%3B%0Aleft%3A%2033%25%3B%0Acolor%3A%20%23aaa%3B%0Afont%2Dfamily%3A%20Menlo%2Cmonospace%2Csans%2Dserif%3B%0Afont%2Dsize%3A%2080%25%3B%0A%7D%0A%23webaddress%20a%20%7B%0Atext%2Ddecoration%3A%20none%3B%0A%7D%0Aem%20%7B%0Afont%2Dweight%3A%20bold%3B%0Afont%2Dstyle%3A%20italic%3B%0A%7D%0Astrong%20%7B%0Afont%2Dweight%3A%20bold%3B%0A%7D%0A%23address%20%7B%0Adisplay%3A%20none%3B%0A%7D%0A%0A" type="text/css" rel="stylesheet" media="screen">
-```
+
 
 <link href="data:text/css;charset=utf-8,%0Ahtml%2C%20body%2C%20div%2C%20span%2C%20applet%2C%20object%2C%20iframe%2C%0Ah1%2C%20h2%2C%20h3%2C%20h4%2C%20h5%2C%20h6%2C%20p%2C%20blockquote%2C%20pre%2C%0Aa%2C%20abbr%2C%20acronym%2C%20address%2C%20big%2C%20cite%2C%20code%2C%0Adel%2C%20dfn%2C%20em%2C%20img%2C%20ins%2C%20kbd%2C%20q%2C%20s%2C%20samp%2C%0Asmall%2C%20strike%2C%20strong%2C%20sub%2C%20sup%2C%20tt%2C%20var%2C%0Ab%2C%20u%2C%20i%2C%20center%2C%0Adl%2C%20dt%2C%20dd%2C%20ol%2C%20ul%2C%20li%2C%0Afieldset%2C%20form%2C%20label%2C%20legend%2C%0Atable%2C%20caption%2C%20tbody%2C%20tfoot%2C%20thead%2C%20tr%2C%20th%2C%20td%2C%0Aarticle%2C%20aside%2C%20canvas%2C%20details%2C%20embed%2C%0Afigure%2C%20figcaption%2C%20footer%2C%20header%2C%20hgroup%2C%0Amenu%2C%20nav%2C%20output%2C%20ruby%2C%20section%2C%20summary%2C%0Atime%2C%20mark%2C%20audio%2C%20video%20%7B%0Amargin%3A%200%3B%0Apadding%3A%200%3B%0Aborder%3A%200%3B%0Afont%2Dsize%3A%20100%25%3B%0Afont%3A%20inherit%3B%0Avertical%2Dalign%3A%20baseline%3B%0A%7D%0A%0Aarticle%2C%20aside%2C%20details%2C%20figcaption%2C%20figure%2C%0Afooter%2C%20header%2C%20hgroup%2C%20menu%2C%20nav%2C%20section%20%7B%0Adisplay%3A%20block%3B%0A%7D%0Abody%20%7B%0Aline%2Dheight%3A%201%3B%0A%7D%0Aol%2C%20ul%20%7B%0Alist%2Dstyle%3A%20none%3B%0A%7D%0Ablockquote%2C%20q%20%7B%0Aquotes%3A%20none%3B%0A%7D%0Ablockquote%3Abefore%2C%20blockquote%3Aafter%2C%0Aq%3Abefore%2C%20q%3Aafter%20%7B%0Acontent%3A%20%27%27%3B%0Acontent%3A%20none%3B%0A%7D%0Atable%20%7B%0Aborder%2Dcollapse%3A%20collapse%3B%0Aborder%2Dspacing%3A%200%3B%0A%7D%0A%0Abody%20%7B%0Afont%3A%20normal%20normal%20400%3B%0Afont%2Dsize%3A%2010pt%3B%0Aline%2Dheight%3A%201%2E35em%3B%0A%0Afont%2Dfamily%3A%20Verdana%2Csans%2Dserif%3B%0A%0A%7D%0Ap%20%7B%0Aposition%3A%20relative%3B%0Aleft%3A%2028%25%3B%0Amargin%2Dbottom%3A%200%2E2em%3B%0Amargin%2Dright%3A%200%3B%0Awidth%3A%2070%25%3B%0A%7D%0A%2Ecsl%2Dleft%2Dmargin%20%7B%0Aposition%3A%20relative%3B%0Afloat%3A%20left%3B%0Aleft%3A%2028%25%3B%0Amargin%2Dleft%3A%20%2D3em%3B%0Amargin%2Dbottom%3A%200%2E2em%3B%0Amargin%2Dright%3A%200%2E5em%3B%0A%7D%0A%2Ecsl%2Dright%2Dinline%20%7B%0Aposition%3A%20relative%3B%0Aleft%3A%2028%25%3B%0Amargin%2Dbottom%3A%200%2E2em%3B%0Amargin%2Dright%3A%200%3B%0Awidth%3A%2070%25%3B%0A%7D%0Acode%20%7B%0Afont%3A%20normal%20normal%3B%0Afont%2Dsize%3A%2060%25%3B%0A%0Afont%2Dfamily%3A%20Menlo%2Cmonospace%2Csans%2Dserif%3B%0Acolor%3A%20%23ccc%3B%0A%7D%0Ap%20code%20%7B%0Aposition%3A%20absolute%3B%0Aleft%3A%20%2D11%25%3B%0A%7D%0Aul%20%7B%0Aposition%3A%20relative%3B%0Aleft%3A%2028%25%3B%0Awidth%3A%2065%25%3B%0Amargin%2Dbottom%3A%201em%3B%0A%0A%7D%0A%0A%0Ali%20%7B%0A%0Apadding%2Dleft%3A%201%2E25em%3B%0Atext%2Dindent%3A%20%2D1%2E25em%3B%0A%0A%7D%0Ali%20ul%20%7B%0Aposition%3A%20relative%3B%0Aleft%3A%200%3B%0Awidth%3A%20100%25%3B%0Amargin%2Dtop%3A%200%2E25em%3B%0A%7D%0Ah1%2Ch2%2Ch3%2Ch4%20%7B%0Afont%2Dweight%3A%20400%3B%0Afont%2Dfamily%3A%20Cousine%2CVerdana%2Csans%2Dserif%3B%0Awidth%3A%2065%25%3B%0A%7D%0Ah1%20%7B%0Atext%2Dalign%3A%20left%3B%0Afont%2Dsize%3A%203em%3B%0Aline%2Dheight%3A%201em%3B%0Aposition%3A%20relative%3B%0Aleft%3A%2028%25%3B%0A%7D%0Ah1%2Bp%20%7B%0A%0Afont%2Dstyle%3A%20italic%3B%0Afont%2Dsize%3A%20110%25%3B%0A%7D%0Ah2%20%7B%0Afont%2Dsize%3A%201%2E1em%3B%0Acolor%3A%20%23a00%3B%0Amargin%2Dtop%3A%202em%3B%0Aposition%3A%20relative%3B%0Atop%3A%201%2E2em%3B%0Atext%2Dalign%3A%20right%3B%0Awidth%3A%2018%25%3B%0A%7D%0Ah3%20%7B%0Afont%2Dsize%3A%201em%3B%0Aline%2Dheight%3A%202em%3B%0Acolor%3A%20%23ccc%3B%0Aposition%3A%20relative%3B%0Atop%3A%201%2E6em%3B%0Atext%2Dalign%3A%20right%3B%0Awidth%3A%2018%25%3B%0A%7D%0Aa%20%7B%0Acolor%3A%20inherit%3B%0Atext%2Ddecoration%3Anone%0A%7D%0Aa%3Ahover%20%7B%0Acolor%3A%2339f%0A%7D%0A%23webaddress%20%7B%0Amargin%2Dtop%3A%201em%3B%0Aposition%3A%20relative%3B%0Aleft%3A%2028%25%3B%0Acolor%3A%20%23ccc%3B%0Afont%2Dfamily%3A%20Menlo%2Cmonospace%2Csans%2Dserif%3B%0Afont%2Dsize%3A%2080%25%3B%0A%7D%0A%23webaddress%20a%20%7B%0Atext%2Ddecoration%3A%20none%3B%0A%7D%0Aem%20%7B%0Afont%2Dstyle%3A%20normal%3B%0Acolor%3A%20%232d4e5e%0A%7D%0Astrong%20%7B%0Afont%2Dweight%3A%20bold%3B%0A%7D%0A%23ghbutton%20%7B%0Adisplay%3A%20none%3B%0Avisibility%3A%20hidden%3B%0A%7D%0A" type="text/css" rel="stylesheet" media="print">
 
-```         
+         
 <div id="main">
 <div id="content">
   <h1>Anamaria Elek</h1>
@@ -79,22 +79,6 @@ permalink: /cv
   </li>
   <li>
   Development and maintenance of computational pipelines for the analysis of next-generation sequencing data.
-  </li>
-  </ul>
-  </p>
-  <p>
-  <code>2018</code> <strong>Intern</strong> Exaltum (Zagreb, HR)
-  <ul>
-  <li>
-  Implementing pipeline for the analysis of whole-genome and exome sequencing, and generation of personalized reports.
-  </li>
-  </ul>
-  </p>
-  <p>
-  <code>2018</code> <strong>Intern</strong> omicX (Rouen, FR)
-  <ul>
-  <li>
-  Data visualizations for benchmarking of different biological analysis pipelines.
   </li>
   </ul>
   </p>
@@ -135,14 +119,14 @@ permalink: /cv
   <div id="ref-Najle_2023">
   <p>Najle, S. R., Grau-Bové, X., <em>Elek, A.</em>, Navarrete, C., Cianferoni, D., Chiva, C., Cañas-Armenteros, D., Mallabiabarrena, A., Kamm, K., Sabidó, E., Gruber-Vodicka, H., Schierwater, B., Serrano, L., &amp; Sebé-Pedrós, A. (2023). Stepwise emergence of the neuronal gene expression program in early animal evolution. <em>Cell</em>, 186(21):4676-4693.e29. <a href="https://doi.org/10.1016/j.cell.2023.08.027">https://doi.org/10.1016/j.cell.2023.08.027</a></p>
   </div>
-  <div id="ref-">
+  <div id="ref-Li_2023">
   <p>Li, Y., Slavik, K. M., Toyoda, H. C., Morehouse, B. R., de Oliveira Mann, C. C., <em>Elek, A.</em>, Levy, S., Wang, Z., Mears, K. S., Liu, J., Kashin, D., Guo, X., Mass, T., Sebé-Pedrós, A., Schwede, F., &amp; Kranzusch, P. J. (2023). cGLRs are a diverse family of pattern recognition receptors in innate immunity. <em>Cell</em>, 20;186(15):3261-3276.e20. <a href="https://doi.org/10.1016/j.cell.2023.05.038">https://doi.org/10.1016/j.cell.2023.05.038</a></p>
   </div>
   <div id="ref-Migu_2022">
   <p>Miguel-Escalada, I., Maestro, M. A., Balboa, D., <em>Elek, A.</em>, Bernal, A., Bernardo, E., Grau, V., Garcia-Hurtado, J., Sebé-Pedrós, A., &amp; Ferrer, J. (2022). Pancreas agenesis mutations disrupt a lead enhancer controlling a developmental enhancer cluster. <em>Developmental Cell</em>, 57(16), 1922–1936.e9. <a href="https://doi.org/10.1016/j.devcel.2022.07.014">https://doi.org/10.1016/j.devcel.2022.07.014</a></p>
   </div>
   <div id="ref-Garc_a_Castro_2021">
-  <p>Garcı́a-Castro, H., Kenny, N. J., Iglesias, M., Álvarez-Campos, P., Mason, V.,<em>Elek, A.</em>., Schönauer, A., Sleight, V. A., Neiro, J., Aboobaker, A., Permanyer, J., Irimia, M., Sebé-Pedrós, A., &amp; Solana, J. (2021). ACME dissociation: A versatile cell fixation-dissociation method for single-cell transcriptomics. <em>Genome Biology</em>, 22(1). <a href="https://doi.org/10.1186/s13059-021-02302-5">https://doi.org/10.1186/s13059-021-02302-5</a></p>
+  <p>Garcı́a-Castro, H., Kenny, N. J., Iglesias, M., Álvarez-Campos, P., Mason, V., <em>Elek, A.</em>., Schönauer, A., Sleight, V. A., Neiro, J., Aboobaker, A., Permanyer, J., Irimia, M., Sebé-Pedrós, A., &amp; Solana, J. (2021). ACME dissociation: A versatile cell fixation-dissociation method for single-cell transcriptomics. <em>Genome Biology</em>, 22(1). <a href="https://doi.org/10.1186/s13059-021-02302-5">https://doi.org/10.1186/s13059-021-02302-5</a></p>
   </div>
   <div id="ref-Elek_2021">
   <p><em>Elek, A.</em>, Kuzman, M., &amp; Vlahovicek, K. (2018). CoRdon: Codon usage analysis and prediction of gene expressivity. <em>R Package</em>. <a href="https://doi.org/10.18129/B9.BIOC.CORDON">https://doi.org/10.18129/B9.BIOC.CORDON</a></p>
@@ -197,7 +181,7 @@ permalink: /cv
   </p>
   </div>
 </div>
-```
+
 
 </div>
 
