@@ -130,19 +130,25 @@ permalink: /cv
   <h2>Publications</h2>
   <div id="bibliography">
   <div id="ref-Levy_2021">
-  <p>1. Levy, S., Elek, A., Grau-Bové, X., Menéndez-Bravo, S., Iglesias, M., Tanay, A., Mass, T., &amp; Sebé-Pedrós, A. (2021). A stony coral cell atlas illuminates the molecular and cellular basis of coral symbiosis, calcification, and immunity. <em>Cell</em>, <em>184</em>(11), 2973–2987.e18. <a href="https://doi.org/10.1016/j.cell.2021.04.005">https://doi.org/10.1016/j.cell.2021.04.005</a></p>
+  <p>Levy, S., <em>Elek, A.</em>, Grau-Bové, X., Menéndez-Bravo, S., Iglesias, M., Tanay, A., Mass, T., &amp; Sebé-Pedrós, A. (2021). A stony coral cell atlas illuminates the molecular and cellular basis of coral symbiosis, calcification, and immunity. <em>Cell</em>, 184(11), 2973–2987.e18. <a href="https://doi.org/10.1016/j.cell.2021.04.005">https://doi.org/10.1016/j.cell.2021.04.005</a></p>
+  </div>
+  <div id="ref-Najle_2023">
+  <p>Najle, S. R., Grau-Bové, X., <em>Elek, A.</em>, Navarrete, C., Cianferoni, D., Chiva, C., Cañas-Armenteros, D., Mallabiabarrena, A., Kamm, K., Sabidó, E., Gruber-Vodicka, H., Schierwater, B., Serrano, L., &amp; Sebé-Pedrós, A. (2023). Stepwise emergence of the neuronal gene expression program in early animal evolution. <em>Cell</em>, 186(21):4676-4693.e29. <a href="https://doi.org/10.1016/j.cell.2023.08.027">https://doi.org/10.1016/j.cell.2023.08.027</a></p>
+  </div>
+  <div id="ref-">
+  <p>Li, Y., Slavik, K. M., Toyoda, H. C., Morehouse, B. R., de Oliveira Mann, C. C., <em>Elek, A.</em>, Levy, S., Wang, Z., Mears, K. S., Liu, J., Kashin, D., Guo, X., Mass, T., Sebé-Pedrós, A., Schwede, F., &amp; Kranzusch, P. J. (2023). cGLRs are a diverse family of pattern recognition receptors in innate immunity. <em>Cell</em>, 20;186(15):3261-3276.e20. <a href="https://doi.org/10.1016/j.cell.2023.05.038">https://doi.org/10.1016/j.cell.2023.05.038</a></p>
   </div>
   <div id="ref-Migu_2022">
-  <p>2. Miguel-Escalada, I., Maestro, M. A., Balboa, D., Elek, A., Bernal, A., Bernardo, E., Grau, V., Garcia-Hurtado, J., Sebé-Pedrós, A., &amp; Ferrer, J. (2022). Pancreas agenesis mutations disrupt a lead enhancer controlling a developmental enhancer cluster. <em>Developmental Cell</em>, <em>57</em>(16), 1922–1936.e9. <a href="https://doi.org/10.1016/j.devcel.2022.07.014">https://doi.org/10.1016/j.devcel.2022.07.014</a></p>
+  <p>Miguel-Escalada, I., Maestro, M. A., Balboa, D., <em>Elek, A.</em>, Bernal, A., Bernardo, E., Grau, V., Garcia-Hurtado, J., Sebé-Pedrós, A., &amp; Ferrer, J. (2022). Pancreas agenesis mutations disrupt a lead enhancer controlling a developmental enhancer cluster. <em>Developmental Cell</em>, 57(16), 1922–1936.e9. <a href="https://doi.org/10.1016/j.devcel.2022.07.014">https://doi.org/10.1016/j.devcel.2022.07.014</a></p>
   </div>
   <div id="ref-Garc_a_Castro_2021">
-  <p>2. Garcı́a-Castro, H., Kenny, N. J., Iglesias, M., Álvarez-Campos, P., Mason, V., Elek, A., Schönauer, A., Sleight, V. A., Neiro, J., Aboobaker, A., Permanyer, J., Irimia, M., Sebé-Pedrós, A., &amp; Solana, J. (2021). ACME dissociation: A versatile cell fixation-dissociation method for single-cell transcriptomics. <em>Genome Biology</em>, <em>22</em>(1). <a href="https://doi.org/10.1186/s13059-021-02302-5">https://doi.org/10.1186/s13059-021-02302-5</a></p>
+  <p>Garcı́a-Castro, H., Kenny, N. J., Iglesias, M., Álvarez-Campos, P., Mason, V.,<em>Elek, A.</em>., Schönauer, A., Sleight, V. A., Neiro, J., Aboobaker, A., Permanyer, J., Irimia, M., Sebé-Pedrós, A., &amp; Solana, J. (2021). ACME dissociation: A versatile cell fixation-dissociation method for single-cell transcriptomics. <em>Genome Biology</em>, 22(1). <a href="https://doi.org/10.1186/s13059-021-02302-5">https://doi.org/10.1186/s13059-021-02302-5</a></p>
   </div>
   <div id="ref-Elek_2021">
-  <p>3. Elek, A., Kuzman, M., &amp; Vlahovicek, K. (2018). CoRdon: Codon usage analysis and prediction of gene expressivity. <em>R Package</em>. <a href="https://doi.org/10.18129/B9.BIOC.CORDON">https://doi.org/10.18129/B9.BIOC.CORDON</a></p>
+  <p><em>Elek, A.</em>, Kuzman, M., &amp; Vlahovicek, K. (2018). CoRdon: Codon usage analysis and prediction of gene expressivity. <em>R Package</em>. <a href="https://doi.org/10.18129/B9.BIOC.CORDON">https://doi.org/10.18129/B9.BIOC.CORDON</a></p>
   </div>
   <div id="ref-Roje_2020">
-  <p>4. Roje, B., Elek, A., Palada, V., Bom, J., Iljazović, A., Šimić, A., Sušak, L., Vilović, K., Strowig, T., Vlahoviček, K., &amp; Terzić, J. (2020). Microbiota alters urinary bladder weight and gene expression. <em>Microorganisms</em>, <em>8</em>(3), 421. <a href="https://doi.org/10.3390/microorganisms8030421">https://doi.org/10.3390/microorganisms8030421</a></p>
+  <p>Roje, B., <em>Elek, A.</em>, Palada, V., Bom, J., Iljazović, A., Šimić, A., Sušak, L., Vilović, K., Strowig, T., Vlahoviček, K., &amp; Terzić, J. (2020). Microbiota alters urinary bladder weight and gene expression. <em>Microorganisms</em>, 8(3), 421. <a href="https://doi.org/10.3390/microorganisms8030421">https://doi.org/10.3390/microorganisms8030421</a></p>
   </div>
   </div>
   </div>
@@ -159,19 +165,16 @@ permalink: /cv
   <div id="volunteering" class="section level2">
   <h2>Volunteering</h2>
   <p>
-  <code>2020 - present</code> <strong>NGSchool</strong> bioinformatics summer school (educational)
+  <code>2020 - 2022</code> <strong>NGSchool</strong> bioinformatics summer school (educational)
   <ul>
   <li>
-  I have been working on scientific program and participants selection for the summer school.
+  I worked on scientific program and participants selection for the summer school.
   </li>
   <li>
-  I was the speaker of two webinars (on R programming and single cell RNA-seq)
+  I taught two webinars (on R programming and single cell RNA-seq) and mentored of a hackathon team of 10 people (RNA-seq analysis project).
   </li>
   <li>
-  and the mentor of a hackathon team of 10 people (working on RNA-seq analysis project).
-  </li>
-  <li>
-  I was also leading the project of developing an NGSchool website (<a href="https://ngschool.eu/" class="uri">https://ngschool.eu/</a>).
+  I also led the project of developing NGSchool website (<a href="https://ngschool.eu/" class="uri">https://ngschool.eu/</a>).
   </li>
   </ul>
   </p>
@@ -179,7 +182,7 @@ permalink: /cv
   <code>2021</code> <strong>Introduction to Machine Learning</strong> CRG Internal Training Course (educational)
   <ul>
   <li>
-  I held a lecture and a workshop on feature selection and dimensionality reduction
+  I held a lecture and a workshop on feature selection and dimensionality reduction.
   </li>
   </ul>
   </p>
