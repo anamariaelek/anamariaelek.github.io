@@ -61,6 +61,17 @@ permalink: /cv
   <div id="experience" class="section level2">
   <h2>Experience</h2>
   <p>
+  <code>2024 - present</code> <strong>Bioinformatician</strong> Centre for Genomic Regulation (Barcelona, ES)
+  <ul>
+  <li>
+  Bioinformatician for the Biodiversity Cell Atlas project.
+  </li>
+  <li>
+  Setting up computational pipelines for analysis and integration of single cell RNA-seq data from different species and technologies.
+  </li>
+  </ul>
+  </p>
+  <p>
   <code>2019 - 2024</code> <strong>PhD Student</strong> Centre for Genomic Regulation (Barcelona, ES)
   <ul>
   <li>
