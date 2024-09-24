@@ -5,3 +5,4 @@
 _site
 .jekyll-cache
 Gemfile.lock
+.httr-oauth

@@ -6,9 +6,12 @@ date: "`r format(Sys.time(), '%B %Y')`"
 output:
   vitae::markdowncv: 
     theme: kjhealy
-position: PhD Student
-address: Working on comparative genomics and gene regulation.  
+position: 
+address: Comparative genomics and gene regulation.  
 phone: ""
+editor_options: 
+  markdown: 
+    wrap: 72
 ---
 
 ```{r setup, include=FALSE}
@@ -19,19 +22,22 @@ library(tibble)
 library(dplyr)
 library(rcrossref)
 library(fontawesome)
-my_orcid <- "0000-0002-3938-2494"
 ```
 
 ## Contact
 
-`r fa(name = "map-marker-alt", fill = "steelblue")` Carrer del Bruc 107, 08009 Barcelona, Spain  
+`r fa(name = "map-marker-alt", fill = "steelblue")` Carrer del Bruc 107,
+08009 Barcelona, Spain
 
-`r fa(name = "phone", fill = "steelblue")` +34 671 743 750  
+`r fa(name = "phone", fill = "steelblue")` +34 671 743 750
 
-`r fa(name = "envelope", fill = "steelblue")` anamariaelek@gmail.com  
+`r fa(name = "envelope", fill = "steelblue")`
+[anamariaelek\@gmail.com](mailto:anamariaelek@gmail.com){.email}
 
-[`r fa(name = "linkedin", fill = "steelblue")`](https://www.linkedin.com/in/anamaria-elek/) | 
-[`r fa(name = "github", fill = "steelblue")`](https://github.com/anamariaelek) | 
+[`r fa(name = "linkedin", fill = "steelblue")`](https://www.linkedin.com/in/anamaria-elek/)
+\|
+[`r fa(name = "github", fill = "steelblue")`](https://github.com/anamariaelek)
+\|
 [`r fa(name = "twitter", fill = "steelblue")`](https://twitter.com/anamariaelek)
 
 ## Experience
@@ -39,16 +45,11 @@ my_orcid <- "0000-0002-3938-2494"
 ```{r}
 tribble(
   ~ Where, ~ Position, ~ Year, ~ Institution, ~ Why,
-  "Barcelona, ES", "PhD Student", "2019 - present", "Centre for Genomic Regulation", 
-  c("PhD student in Comparative regulatory genomics group (Sebé-Pedrós lab)", 
-    "Modeling cell type evolution using single-cell and chromatin profiling approaches"),
+  "Barcelona, ES", "PhD Student", "2019 - 2024", "Centre for Genomic Regulation", 
+  c("Comparative regulatory genomics group (Sebé-Pedrós lab)", 
+    ""),
   "London, UK", "Bioinformatician", "2019", "The Institute of Cancer Research", 
-  c("Bioinformatician in Genomics Facility", 
-    "Development and maintenance of computational pipelines for the analysis of next-generation sequencing data."),
-  "Zagreb, HR", "Intern", "2018", "Exaltum",
-  "Implementing pipeline for the analysis of whole-genome and exome sequencing, and generation of personalized reports.",
-  "Rouen, FR", "Intern", "2018", "omicX", 
-  "Data visualizations for benchmarking of different biological analysis pipelines.",
+  c("Tumor Profiling Unit (Nik Matthews)")
 ) %>% 
   detailed_entries(Institution, Year, Where, Position, Why)
 ```
@@ -56,6 +57,8 @@ tribble(
 ## Education
 
 ```{r}
+my_orcid <- "0000-0002-3938-2494"
+orcid_token <- "ac3112e3-5701-4017-9cb4-9b4a265d540d"
 orcid_edu_list <- rorcid::orcid_educations(my_orcid)[[my_orcid]][["affiliation-group"]][["summaries"]]
 orcid_edu <- rbindlist(
   lapply(orcid_edu_list, function(x) as.data.table(x)),
@@ -89,20 +92,18 @@ orcid_bib <- rbind(orcid_bib, c(
 ))
 write.table(orcid_bib,"orcid.bib")
 bibliography_entries("orcid.bib") %>%
-  # arrange(desc(as.integer(stringr::str_extract(id,'\\d{4}$')))) %>%
-  dplyr::slice(c(3,1,2,4)) # arrange manually
+  arrange(desc(as.integer(stringr::str_extract(id,'\\d{4}$'))))
 
 ```
 
 ## Skills
 
-`r fa(name = "r-project", fill = "steelblue")` R programming | 
-`r fa(name = "python", fill = "steelblue")` Python |
-`r fa(name = "linux", fill = "steelblue")` Linux/BASH |
-`r fa(name = "server", fill = "steelblue")` HPC computing |
-`r fa(name = "git-square", fill = "steelblue")` Git versioning |
+`r fa(name = "python", fill = "steelblue")` Python \|
+`r fa(name = "r-project", fill = "steelblue")` R programming \|
+`r fa(name = "linux", fill = "steelblue")` Linux/BASH \|
+`r fa(name = "server", fill = "steelblue")` HPC computing \|
+`r fa(name = "git-square", fill = "steelblue")` Git versioning \|
 `r fa(name = "docker", fill = "steelblue")` Docker
-
 
 ## Awards
 
@@ -120,25 +121,23 @@ data.table(
 ```{r}
 tribble(
   ~ date, ~ activity, ~ what, ~ type, ~ details,
-  "2020 - present", "NGSchool", "bioinformatics summer school", "educational", 
-  c("I have been working on scientific program and participants selection for the summer school.",
-    "I was the speaker of two webinars (on R programming and single cell RNA-seq)",
-    "and the mentor of a hackathon team of 10 people (working on RNA-seq analysis project).",
-    "I was also leading the project of developing an NGSchool website (https://ngschool.eu/)."),
+  "2020 - 2022", "NGSchool", "bioinformatics summer school", "educational", 
+  c("In the organization of the summer school, I worked on program and participants selection.",
+    "I was teaching two webinars (on R programming and single cell RNA-seq)",
+    "and mentoring a hackathon team of 10 people (working on RNA-seq analysis project).",
+    "I also led the project of developing an NGSchool website (https://ngschool.eu/)."),
   "2021", "Introduction to Machine Learning", "CRG Internal Training Course", "educational", 
-  c("I held a lecture and a workshop on feature selection and dimensionality reduction")
+  c("I gave a lecture and a workshop on feature selection and dimensionality reduction.")
 ) %>% detailed_entries(what, date, type, activity, details)
 ```
 
+
+```{r eval=FALSE}
 ## Training
 
-```{r}
 tribble(
   ~ date, ~ activity, ~ what, ~ where,
   "2018", "NGSchool: Nanopore sequencing & personalised medicine", "bioinformatics summer school", "Lublin, PL",
   "2017", "VBC Summer School", "molecular biology summer school", "Vienna, AT" 
 ) %>% detailed_entries(what, date, where, activity)
 ```
-
-
-
