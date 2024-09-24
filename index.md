@@ -17,7 +17,7 @@ permalink: /
 <p></p>
 
 
-I am a PhD student at <a href="https://www.crg.eu/" target="_blank">Centre for Genomic Regulation (CRG)</a> in Barcelona, Spain, in the group of <a href="https://www.sebepedroslab.org/" target="_blank">Arnau Sebé Pedrós</a>. I am interested in comparative genomics and gene regulation, which I am studying in the context of cell type evolution in early metazoans. To this end, I am analyzing single cell transcriptomics and chromatin profiling data, and using it to model cell type specific gene regulatory logic.  
+I obtained my PhD from <a href="https://www.upf.edu/es/" target="_blank">University Pompeu Fabra</a>, while working at <a href="https://www.crg.eu/" target="_blank">Centre for Genomic Regulation (CRG)</a> in Barcelona, Spain, in the group of <a href="https://www.sebepedroslab.org/" target="_blank">Arnau Sebé Pedrós</a>. I worked on modeling gene regulation in the context of cell type evolution in early metazoans. To this end, I was analyzing single cell transcriptomics and chromatin profiling data, and using it to model cell type specific gene regulatory logic.  
 
 <img src="static/images/chord.png" alt="compartive-cell-types" class="centerimage" width=250>
  
@@ -25,9 +25,9 @@ I obtained my Master of Science degree from the University of Zagreb, Croatia, w
 
 <img src="static/images/cordon.png" alt="codon-usage" class="centerimage" width=250>
 
-I am a member of <a href="https://ngschool.eu/" target="_blank">NGSchool Society</a>, an NGO that supports bioinformatics community in Central and Eastern Europe. We organize training events for early career stage researchers in computational biology, including summer school and conferences, as well as <a href="https://www.youtube.com/c/NGSchoolEU" target="_blank">online worskops and lectures</a>. We are always on the look-out for new people, so if you want to join us, don't hesitate to [get in touch](mailto:aelek@ngschool.eu)!  
+I am an alumni of <a href="https://ngschool.eu/" target="_blank">NGSchool Society</a>, an NGO that supports bioinformatics community in Central and Eastern Europe. We organized training events for early career stage researchers in computational biology, including a yearly summer school and various conferences, as well as <a href="https://www.youtube.com/c/NGSchoolEU" target="_blank">online workshops and lectures</a>. NGSchool is always on the look-out for new people, so if you want to join, don't hesitate to [get in touch](mailto:aelek@ngschool.eu)!  
 
 <img src="static/images/ngschool.png" alt="ngschool" class="centerimage" width=250>
 
-I am originally from Croatia - which is a beautiful country and a perfect destination for your next holidays (I'm doing my patriotic bit here :) but it is really stunning). Currently I am living in Barcelona. In my free time I enjoy reading, traveling, taking <a href="photos" target="_blank">photos</a>, hiking and running.  
+In my free time I enjoy reading, traveling, <a href="photos" target="_blank">taking photos</a>, hiking and running.  
  
