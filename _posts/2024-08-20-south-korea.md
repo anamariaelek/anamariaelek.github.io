@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 
+title: South Korea, August 2024
 date: 2024-08-20
 s3-base: https://anamaria-elek-hr.s3.eu-central-1.amazonaws.com/2024-08-20-south-korea
 images:
@@ -173,3 +173,4 @@ images:
   - type: horizontal
     id: 72
 ---
+Seoul and Gyeongju

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tübingen
+title: Tübingen, January 2021
 date: 2021-09-21-tuebingen
 s3-base: https://anamaria-elek-hr.s3.eu-central-1.amazonaws.com/2021-01-25-tuebingen
 images:

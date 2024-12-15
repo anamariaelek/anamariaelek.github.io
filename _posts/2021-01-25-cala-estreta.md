@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cala Estreta, Costa Brava
+title: Costa Brava, January 2021
 date: 2021-07-24
 s3-base: https://anamaria-elek-hr.s3.eu-central-1.amazonaws.com/2021-01-25-cala-estreta
 images:

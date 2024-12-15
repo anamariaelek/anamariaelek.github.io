@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Barcelona
+title: Barcelona, 2021
 date: 2021-03-10
 s3-base: https://anamaria-elek-hr.s3.eu-central-1.amazonaws.com/2021-03-28-barcelona
 images:

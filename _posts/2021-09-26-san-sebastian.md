@@ -1,6 +1,6 @@
 ---
 layout: post
-title: San Sebastian
+title: San Sebastian, September 2021
 date: 2021-09-26
 s3-base: https://anamaria-elek-hr.s3.eu-central-1.amazonaws.com/2021-09-26-san-sebastian
 images:

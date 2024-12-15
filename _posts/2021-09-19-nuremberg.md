@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nürnberg 
+title: Nürnberg, September 2021
 date: 2021-09-19
 s3-base: https://anamaria-elek-hr.s3.eu-central-1.amazonaws.com/2021-09-19-nuremberg
 images:

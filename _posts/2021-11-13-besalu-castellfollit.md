@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Besalú & Castellfollit de la Roca 
+title: Besalú, November 2021
 date: 2021-11-13
 s3-base: https://anamaria-elek-hr.s3.eu-central-1.amazonaws.com/2021-11-13-besalu-castellfollit
 images:
@@ -69,6 +69,4 @@ images:
   - type: horizontal
     id: 35
 ---
-
- Medieval Catalan villages
 
