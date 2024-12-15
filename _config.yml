@@ -1,7 +1,7 @@
 # # Site settings
 # title: Anamaria Elek
 email: anamariaelek@gmail.com
-description: "© 2024 Anamaria Elek" 
+description: "© 2025 Anamaria Elek" 
 # baseurl: "/" # the subpath of your site, e.g. /blog/
 # url: "http://anamaria.elek.hr" # the base hostname & protocol for your site
 # twitter_username: anamariaelek
@@ -11,5 +11,5 @@ description: "© 2024 Anamaria Elek"
 # # Build settings
 # markdown: kramdown
 permalink: pretty
-main_img_url: https://anamaria-elek-hr.s3.eu-central-1.amazonaws.com/IMG_3483.jpg
+main_img_url: https://anamaria-elek-hr.s3.eu-central-1.amazonaws.com/CRG_SYMPOSIUM2023_1083-EDIT.jpg
 cdn_url: https://dmw492fxu64ad.cloudfront.net
