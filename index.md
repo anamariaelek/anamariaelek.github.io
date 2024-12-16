@@ -20,7 +20,11 @@ I obtained my PhD from <a href="https://www.upf.edu/es/" target="_blank">Univers
 </div>
 
 <br>
-<img src="static/images/grn.png" alt="gene-regulatory-modeling" class="centerimage" width=1250>
+
+<div class="image-container">
+    <img src="static/images/grn.png" alt="gene-regulatory-modeling">
+</div>
+
 <br>
 
 <div>
@@ -51,6 +55,8 @@ Previously, I obtained my Master of Science degree from the University of Zagreb
   </a>
 </div>
 
+<br>
+
 <div>
 <p>
 I am an alumni of <a href="https://ngschool.eu/" target="_blank">NGSchool Society</a>, an NGO that supports bioinformatics community in Central and Eastern Europe. We organized training events for early career stage researchers in computational biology, including a yearly summer school and various conferences, as well as <a href="https://www.youtube.com/c/NGSchoolEU" target="_blank">online workshops and lectures</a>. NGSchool is always on the look-out for new people, so if you want to join, don't hesitate to get in touch with them!
@@ -62,6 +68,8 @@ I am an alumni of <a href="https://ngschool.eu/" target="_blank">NGSchool Societ
 <img src="static/images/ngschool.svg" alt="ngschool" class="centerimage" width=300>
 </a>
 </div>
+
+<br>
 
 I spend my free time running, playing football, hiking, traveling and <a href="photos" target="_blank">taking photos</a>.
  

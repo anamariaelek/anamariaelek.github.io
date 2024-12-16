@@ -31,6 +31,27 @@ body {
 }
 
 
+.image-container img {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+@include media-query(768px) {
+    .image-container img {
+        margin: 0 auto; /* Example adjustment */
+    }
+}
+
+@include media-query(480px) {
+    .image-container img {
+        border-radius: 8px; /* Example adjustment for small screens */
+    }
+}
+
+
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
