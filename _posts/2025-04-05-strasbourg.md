@@ -10,7 +10,7 @@ images:
     id: 2
   - type: horizontal
     id: 3
-  - type: vertical
+  - type: horizontal
     id: 4
   - type: vertical
     id: 1
