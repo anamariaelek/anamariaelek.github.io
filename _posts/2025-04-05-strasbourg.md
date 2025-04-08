@@ -19,6 +19,10 @@ images:
   - type: horizontal
     id: 6
   - type: horizontal
+    id: 23
+  - type: horizontal
+    id: 22
+  - type: horizontal
     id: 7
   - type: vertical
     id: 2
