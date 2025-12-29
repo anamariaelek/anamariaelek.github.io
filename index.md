@@ -23,7 +23,7 @@ I obtained my PhD from <a href="https://www.upf.edu/es/" target="_blank">Univers
 
 <br>
 
-<div class="image-container" style="width:80%; margin:auto;">
+<div class="image-container" style="width:80%; max-width: 3500px; margin:auto;">
   <a href="https://www.nature.com/articles/s41559-025-02906-1" target="_blank">
     <img src="static/images/grn.png" alt="gene-regulatory-modeling">
   </a>
@@ -40,8 +40,8 @@ This work built up on my earlier project which characterized and compared cell t
 </div>
 
 <br>
-<div class="image-container" style="width:20%; margin:auto;">
-  <a href="https://doi.org/10.1016/j.cell.2021.04.005" target="_blank">
+<div class="image-container" style="width:80%; max-width: 250px; margin:auto;">
+  <a href="https://doi.org/10.1016/j.cell2021.04.005" target="_blank">
     <img src="static/images/cover.tif.jpg" alt="gene-regulatory-modeling" style="width:100%;">
   </a>
 </div>
@@ -51,7 +51,7 @@ This work built up on my earlier project which characterized and compared cell t
 <div>
 <p>
 
-Before all of this, I obtained my Master of Science degree from the University of Zagreb, Croatia, where I worked in the <a href="http://www.bioinfo.hr" target="_blank">Bioinformatics Group</a> and developed <a href="https://www.bioconductor.org/packages/release/bioc/html/coRdon.html" target="_blank">coRdon</a>, a <b>Bioconductor</b> package for the analysis of codon usage. I also worked as a bioinformatician in the Genomics Facility at <a href="https://www.icr.ac.uk/" target="_blank">The Institute of Cancer Research</a> in London, UK.
+Before all of this, I obtained my Master of Science degree from the University of Zagreb, Croatia, where I worked in the <a href="http://www.bioinfo.hr" target="_blank">Bioinformatics Group</a> and developed <a href="https://www.bioconductor.org/packages/release/bioc/html/coRdon.html" target="_blank"><b>coRdon, Bioconductor package</a></b> for the analysis of codon usage. I also worked as a bioinformatician in the Genomics Facility at <a href="https://www.icr.ac.uk/" target="_blank">The Institute of Cancer Research</a> in London, UK.
 </p>
 </div>
 
