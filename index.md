@@ -22,7 +22,7 @@ I am currently a postdoctoral researcher at <a href="https://www.zmbh.uni-heidel
 
 <br>
 
-<div class="image-container" style="width:85%; max-width: 500px; margin:auto;">
+<div class="image-container" style="width:90%; max-width: 700px; margin:auto;">
     <img src="static/images/splicing.png" alt="splicing">
 </div>
 
