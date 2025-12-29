@@ -24,7 +24,6 @@ I am currently a postdoctoral researcher at <a href="https://www.zmbh.uni-heidel
 
 <div class="image-container" style="width:70%; max-width: 1080px; margin:auto;">
     <img src="static/images/splicing.png" alt="splicing">
-  </a>
 </div>
 
 <br>
