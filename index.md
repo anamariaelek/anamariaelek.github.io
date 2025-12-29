@@ -13,7 +13,7 @@ permalink: /
 
 <div>
 <p>
-I am a computationl biologist working on understanding gene regulation and expression changes on cell type level, across evolution, development and disease. I have strong foundations in statistics and machine learning, and extensive experience combining data analysis with interactive visualizations that drive meaningful biological discoveries.
+I am a computationl biologist working on understanding gene regulation and expression changes on cell type level, across evolution, development and disease. I have strong foundations in statistics and machine learning, and extensive experience combining data analysis with interactive visualizations that drive meaningful biological discoveries. I am a strong advocate of reproducible and accessible science, and I strive to make my research available to the wider scientific community by providing open source code and user-friendly web applications.
 
 I am currently a postdoctoral researcher at <a href="https://www.zmbh.uni-heidelberg.de/" target="_blank">Center for Molecular Biology of Heidelberg University (ZMBH)</a> in Heidelberg, Germany, in the groups of <a href="https://home.kaessmannlab.org/" target="_blank">Prof. Dr. Henrik Kaessmann</a> and <a href="https://www.zmbh.uni-heidelberg.de/sasse/default.shtml" target="_blank">Dr. Alexander Sasse</a>. My research focuses on developing deep learning models to study functional evolution of alternative splicing and its regulatory foundations across mammalian organ development. 
 </p>
@@ -47,7 +47,7 @@ I obtained my PhD from <a href="https://www.upf.edu/es/" target="_blank">Univers
 <div>
 <p>
 
-This work built up on my earlier project which characterized and compared cell type identities in stony coral <i>Stylophora pistillata</i>. This work was published in <b><a href="https://doi.org/10.1016/j.cell.2021.04.005" target="_blank">Cell</a></b>, and can also be explored through an <a href="https://sebe-lab.shinyapps.io/Stylophora_cell_atlas/" target="_blank">interactive web application</a> that I developed.
+This work built up on my earlier project which characterized and compared cell type transcriptomes in corals. This work was published in <b><a href="https://doi.org/10.1016/j.cell.2021.04.005" target="_blank">Cell</a></b>, and can also be explored through an <a href="https://sebe-lab.shinyapps.io/Stylophora_cell_atlas/" target="_blank">interactive web application</a>.
 
 </p>
 </div>
@@ -55,7 +55,22 @@ This work built up on my earlier project which characterized and compared cell t
 <br>
 <div class="image-container" style="width:90%; max-width: 250px; margin:auto;">
   <a href="https://doi.org/10.1016/j.cell2021.04.005" target="_blank">
-    <img src="static/images/cover.tif.jpg" alt="gene-regulatory-modeling" style="width:100%;">
+    <img src="static/images/cover.tif.jpg" alt="cell" style="width:100%;">
+  </a>
+</div>
+
+<br>
+<div>
+<p>
+In addition to the two projects mentioned above, I was involved in several other research projects during my PhD, which aimed to broaden our understanding of cell type specification and underlying gene regulatory mechanisms at the level of whole organism, mostly in early branching animals. This effort eventually led to establishing a <a href="https://biodiversitycellatlas.org/" target="_blank">Biodiversity Cell Atlas (BCA)</a>, a consortium of scientists working on extending and standardizing the application of single cell transcriptomics to a wide range of organisms. You can read more about the mission of BCA in the Perspective published in <b><a href="https://www.nature.com/articles/s41586-025-09312-4" target="_blank">Nature</a></b>.
+
+</p>
+</div>
+
+<br>
+<div class="image-container" style="width:90%; max-width: 600px; margin:auto;">
+  <a href="https://doi.org/10.1016/j.cell2021.04.005" target="_blank">
+    <img src="static/images/BCALog.svg" alt="cell" style="width:100%;">
   </a>
 </div>
 
