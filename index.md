@@ -51,7 +51,8 @@ This work built up on my earlier project which characterized and compared cell t
 <div>
 <p>
 
-Before all of this, I obtained my Master of Science degree from the University of Zagreb, Croatia, where I worked in the <a href="http://www.bioinfo.hr" target="_blank">Bioinformatics Group</a> and developed <a href="https://www.bioconductor.org/packages/release/bioc/html/coRdon.html" target="_blank"><b>coRdon, Bioconductor package</a></b> for the analysis of codon usage. I also worked as a bioinformatician in the Genomics Facility at <a href="https://www.icr.ac.uk/" target="_blank">The Institute of Cancer Research</a> in London, UK.
+Before all of this, I obtained my Master of Science degree from the University of Zagreb, Croatia, where I worked in the <a href="http://www.bioinfo.hr" target="_blank">Bioinformatics Group</a> and developed <a href="https://www.bioconductor.org/packages/release/bioc/html/coRdon.html" target="_blank"><b>coRdon, Bioconductor package</b></a> for the analysis of codon usage. I also worked as a bioinformatician in the Genomics Facility at <a href="https://www.icr.ac.uk/" target="_blank">The Institute of Cancer Research</a> in London, UK.
+
 </p>
 </div>
 
