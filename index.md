@@ -22,7 +22,7 @@ I am currently a postdoctoral researcher at <a href="https://www.zmbh.uni-heidel
 
 <br>
 
-<div class="image-container" style="width:65%; max-width: 1080px; margin:auto;">
+<div class="image-container" style="width:90%; max-width: 1080px; margin:auto;">
     <img src="static/images/splicing.png" alt="splicing">
 </div>
 
@@ -53,7 +53,7 @@ This work built up on my earlier project which characterized and compared cell t
 </div>
 
 <br>
-<div class="image-container" style="width:80%; max-width: 250px; margin:auto;">
+<div class="image-container" style="width:90%; max-width: 250px; margin:auto;">
   <a href="https://doi.org/10.1016/j.cell2021.04.005" target="_blank">
     <img src="static/images/cover.tif.jpg" alt="gene-regulatory-modeling" style="width:100%;">
   </a>
