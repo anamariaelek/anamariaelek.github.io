@@ -54,7 +54,7 @@ This work built up on my earlier project which characterized and compared cell t
 
 <br>
 <div class="image-container" style="width:90%; max-width: 250px; margin:auto;">
-  <a href="https://doi.org/10.1016/j.cell2021.04.005" target="_blank">
+  <a href="https://doi.org/10.1016/j.cell.2021.04.005" target="_blank">
     <img src="static/images/cover.tif.jpg" alt="cell" style="width:100%;">
   </a>
 </div>
@@ -69,8 +69,8 @@ Beyond the two projects mentioned above, I contributed to several additional stu
 
 <br>
 <div class="image-container" style="width:90%; max-width: 600px; margin:auto;">
-  <a href="https://doi.org/10.1016/j.cell2021.04.005" target="_blank">
-    <img src="static/images/BCALog.svg" alt="cell" style="width:100%;">
+  <a href="https://biodiversitycellatlas.org/" target="_blank">
+    <img src="static/images/BCALog.svg" alt="BCA" style="width:100%;">
   </a>
 </div>
 
