@@ -16,7 +16,21 @@ permalink: /
 I am a computationl biologist working on understanding gene regulation and expression changes on cell type level, across evolution, development and disease. I have strong foundations in statistics and machine learning, and extensive experience combining data analysis with interactive visualizations that drive meaningful biological discoveries.
 
 I am currently a postdoctoral researcher at <a href="https://www.zmbh.uni-heidelberg.de/" target="_blank">Center for Molecular Biology of Heidelberg University (ZMBH)</a> in Heidelberg, Germany, in the groups of <a href="https://home.kaessmannlab.org/" target="_blank">Prof. Dr. Henrik Kaessmann</a> and <a href="https://www.zmbh.uni-heidelberg.de/sasse/default.shtml" target="_blank">Dr. Alexander Sasse</a>. My research focuses on developing deep learning models to study functional evolution of alternative splicing and its regulatory foundations across mammalian organ development. 
+</p>
+</div>
 
+
+<br>
+
+<div class="image-container" style="width:70%; max-width: 1080px; margin:auto;">
+    <img src="static/images/splicing.png" alt="splicing">
+  </a>
+</div>
+
+<br>
+
+<div>
+<p>
 I obtained my PhD from <a href="https://www.upf.edu/es/" target="_blank">University Pompeu Fabra</a>, while working at <a href="https://www.crg.eu/" target="_blank">Centre for Genomic Regulation (CRG)</a> in Barcelona, Spain, in the group of <a href="https://www.sebepedroslab.org/" target="_blank">Prof. Dr. Arnau Sebé Pedrós</a>. I was using single cell transcriptomics and chromatin profiling data to dechiper gene regulatory logic behind cell type identities in cnidarians, an early branching group of non-bilaterian animals. During my PhD I also spent several months in the group of <a href="https://aertslab.org/" target="_blank">Dr. Stein Aerts</a> at <a href="https://vib.be/en/research-and-impact/research-centers/vibai-center-ai-computational-biology" target="_blank">Center for AI & Computational Biology of VIB-KU Leuven</a> in Leuven, Belgium, where I was training convolutional neural networks for regulatory sequence analysis and cell type comparisons. The results of this work have been published in <b><a href="https://www.nature.com/articles/s41559-025-02906-1" target="_blank">Nature Ecology & Evolution</a></b> (and can be read <a href="https://urldefense.com/v3/__https://rdcu.be/eVPyC__;!!D9dNQwwGXtA!SaVf3q7H_rcqsIlAQf-sXrNliXDLK7cERk0TRpwS9I7WX66ApL7WQnfZUaIyOhYp87SFxIn5KALujIxsWw16AjU6nB76pYbf8A$" target="_blank">here</a>). The analysed data can be easily explored through an <a href="https://sebelab.crg.eu/nematostella-cis-regulatory-atlas/" target="_blank">interactive web application</a> and the <a href="https://sebelab.crg.eu/nematostella-cis-reg-jb2/" target="_blank">genome browser</a> that I set up.
 </p>
 </div>
