@@ -62,7 +62,7 @@ This work built up on my earlier project which characterized and compared cell t
 <br>
 <div>
 <p>
-In addition to the two projects mentioned above, I was involved in several other research projects during my PhD, which aimed to broaden our understanding of cell type specification and underlying gene regulatory mechanisms at the level of whole organism, mostly in early branching animals. This effort eventually led to establishing a <a href="https://biodiversitycellatlas.org/" target="_blank">Biodiversity Cell Atlas (BCA)</a>, a consortium of scientists working on extending and standardizing the application of single cell transcriptomics to a wide range of organisms. You can read more about the mission of BCA in the Perspective published in <b><a href="https://www.nature.com/articles/s41586-025-09312-4" target="_blank">Nature</a></b>.
+Beyond the two projects mentioned above, I contributed to several additional studies during my PhD aimed at understanding cell-type specification and gene regulatory mechanisms at the whole-organism level, primarily in early-branching animals. These efforts eventually led to the establishment of <a href="https://biodiversitycellatlas.org/" target="_blank">Biodiversity Cell Atlas (BCA)</a>, a consortium working on extending and standardizing the application of single cell transcriptomics to a wide range of organisms across the tree of life. The mission and vision of the BCA are described in a Perspective article published in <b><a href="https://www.nature.com/articles/s41586-025-09312-4" target="_blank">Nature</a></b>.
 
 </p>
 </div>
