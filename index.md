@@ -13,7 +13,7 @@ permalink: /
 
 <div>
 <p>
-I am a computationl biologist working on understanding gene regulation and expression changes on cell type level, across evolution, development and disease. I have strong foundations in statistics and machine learning, and extensive experience combining data analysis with interactive visualizations that drive meaningful biological discoveries. I am a strong advocate of reproducible and accessible science, and I strive to make my research available to the wider scientific community by providing open source code and user-friendly web applications.
+I am a computational biologist working on understanding gene regulation and expression changes on cell type level, across evolution, development and disease. I have strong foundations in statistics and machine learning, and extensive experience combining data analysis with interactive visualizations that drive meaningful biological discoveries. I am a strong advocate of reproducible and accessible science, and I strive to make my research available to the wider scientific community by providing open source code and user-friendly web applications.
 
 I am currently a postdoctoral researcher at <a href="https://www.zmbh.uni-heidelberg.de/" target="_blank">Center for Molecular Biology of Heidelberg University (ZMBH)</a> in Heidelberg, Germany, in the groups of <a href="https://home.kaessmannlab.org/" target="_blank">Prof. Dr. Henrik Kaessmann</a> and <a href="https://www.zmbh.uni-heidelberg.de/sasse/default.shtml" target="_blank">Dr. Alexander Sasse</a>. My research focuses on developing deep learning models to study functional evolution of alternative splicing and its regulatory foundations across mammalian organ development. 
 </p>
@@ -22,7 +22,7 @@ I am currently a postdoctoral researcher at <a href="https://www.zmbh.uni-heidel
 
 <br>
 
-<div class="image-container" style="width:90%; max-width: 1080px; margin:auto;">
+<div class="image-container" style="width:85%; max-width: 500px; margin:auto;">
     <img src="static/images/splicing.png" alt="splicing">
 </div>
 
@@ -36,7 +36,7 @@ I obtained my PhD from <a href="https://www.upf.edu/es/" target="_blank">Univers
 
 <br>
 
-<div class="image-container" style="width:80%; max-width: 3500px; margin:auto;">
+<div class="image-container" style="width:95%; max-width: 3500px; margin:auto;">
   <a href="https://www.nature.com/articles/s41559-025-02906-1" target="_blank">
     <img src="static/images/grn.png" alt="gene-regulatory-modeling">
   </a>
