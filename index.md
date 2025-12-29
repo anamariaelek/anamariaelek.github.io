@@ -15,21 +15,43 @@ permalink: /
 <p>
 I am a computationl biologist working on understanding gene regulation and expression changes on cell type level, across evolution, development and disease. I have strong foundations in statistics and machine learning, and extensive experience combining data analysis with interactive visualizations that drive meaningful biological discoveries.
 
-I obtained my PhD from <a href="https://www.upf.edu/es/" target="_blank">University Pompeu Fabra</a>, while working at <a href="https://www.crg.eu/" target="_blank">Centre for Genomic Regulation (CRG)</a> in Barcelona, Spain, in the group of <a href="https://www.sebepedroslab.org/" target="_blank">Arnau Sebé Pedrós</a>. I was using single cell transcriptomics and chromatin profiling data to dechiper gene regulatory logic behind cell type identities in cnidarians, an early branching group of non-bilaterian animals. During my PhD I also spent several months in the group of Stein Aerts at <a href="https://vib.be/en/research-and-impact/research-centers/vibai-center-ai-computational-biology" target="_blank">Center for AI & Computational Biology of VIB-KU Leuven</a> in Leuven, Belgium, where I was training convolutional neural networks for regulatory sequence analysis and cell type comparisons. 
+I am currently a postdoctoral researcher at <a href="https://www.zmbh.uni-heidelberg.de/" target="_blank">Center for Molecular Biology of Heidelberg University (ZMBH)</a> in Heidelberg, Germany, in the groups of <a href="https://home.kaessmannlab.org/" target="_blank">Prof. Dr. Henrik Kaessmann</a> and <a href="https://www.zmbh.uni-heidelberg.de/sasse/default.shtml" target="_blank">Dr. Alexander Sasse</a>. My research focuses on developing deep learning models to study functional evolution of alternative splicing and its regulatory foundations across mammalian organ development. 
+
+I obtained my PhD from <a href="https://www.upf.edu/es/" target="_blank">University Pompeu Fabra</a>, while working at <a href="https://www.crg.eu/" target="_blank">Centre for Genomic Regulation (CRG)</a> in Barcelona, Spain, in the group of <a href="https://www.sebepedroslab.org/" target="_blank">Prof. Dr. Arnau Sebé Pedrós</a>. I was using single cell transcriptomics and chromatin profiling data to dechiper gene regulatory logic behind cell type identities in cnidarians, an early branching group of non-bilaterian animals. During my PhD I also spent several months in the group of <a href="https://aertslab.org/" target="_blank">Dr. Stein Aerts</a> at <a href="https://vib.be/en/research-and-impact/research-centers/vibai-center-ai-computational-biology" target="_blank">Center for AI & Computational Biology of VIB-KU Leuven</a> in Leuven, Belgium, where I was training convolutional neural networks for regulatory sequence analysis and cell type comparisons. The results of this work have been published in <b><a href="https://www.nature.com/articles/s41559-025-02906-1" target="_blank">Nature Ecology & Evolution</a></b> (and can be read <a href="https://urldefense.com/v3/__https://rdcu.be/eVPyC__;!!D9dNQwwGXtA!SaVf3q7H_rcqsIlAQf-sXrNliXDLK7cERk0TRpwS9I7WX66ApL7WQnfZUaIyOhYp87SFxIn5KALujIxsWw16AjU6nB76pYbf8A$" target="_blank">here</a>). The analysed data can be easily explored through an <a href="https://sebelab.crg.eu/nematostella-cis-regulatory-atlas/" target="_blank">interactive web application</a> and the <a href="https://sebelab.crg.eu/nematostella-cis-reg-jb2/" target="_blank">genome browser</a> that I set up.
 </p>
 </div>
 
 <br>
 
-<div class="image-container">
+<div class="image-container" style="width:80%; margin:auto;">
+  <a href="https://www.nature.com/articles/s41559-025-02906-1" target="_blank">
     <img src="static/images/grn.png" alt="gene-regulatory-modeling">
+  </a>
 </div>
 
 <br>
 
 <div>
 <p>
-Previously, I obtained my Master of Science degree from the University of Zagreb, Croatia, where I worked in the <a href="http://www.bioinfo.hr" target="_blank">Bioinformatics Group</a> and developed <a href="https://www.bioconductor.org/packages/release/bioc/html/coRdon.html" target="_blank">coRdon</a>, a Bioconductor package for the analysis of codon usage. I also worked as a bioinformatician in the Genomics Facility at <a href="https://www.icr.ac.uk/" target="_blank">The Institute of Cancer Research</a> in London, UK.
+
+This work built up on my earlier project which characterized and compared cell type identities in stony coral <i>Stylophora pistillata</i>. This work was published in <b><a href="https://doi.org/10.1016/j.cell.2021.04.005" target="_blank">Cell</a></b>, and can also be explored through an <a href="https://sebe-lab.shinyapps.io/Stylophora_cell_atlas/" target="_blank">interactive web application</a> that I developed.
+
+</p>
+</div>
+
+<br>
+<div class="image-container" style="width:20%; margin:auto;">
+  <a href="https://doi.org/10.1016/j.cell.2021.04.005" target="_blank">
+    <img src="static/images/cover.tif.jpg" alt="gene-regulatory-modeling" style="width:100%;">
+  </a>
+</div>
+
+<br>
+
+<div>
+<p>
+
+Before all of this, I obtained my Master of Science degree from the University of Zagreb, Croatia, where I worked in the <a href="http://www.bioinfo.hr" target="_blank">Bioinformatics Group</a> and developed <a href="https://www.bioconductor.org/packages/release/bioc/html/coRdon.html" target="_blank">coRdon</a>, a <b>Bioconductor</b> package for the analysis of codon usage. I also worked as a bioinformatician in the Genomics Facility at <a href="https://www.icr.ac.uk/" target="_blank">The Institute of Cancer Research</a> in London, UK.
 </p>
 </div>
 
