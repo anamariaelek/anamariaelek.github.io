@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Liked Songs — Anamaria Elek</title>
+<meta name="description" content="A personal look at my Spotify Liked Songs.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<style>
+  :root{
+    --paper:#faf8f3;
+    --ink:#1c1b19;
+    --ink-soft:#5b584f;
+    --line:#e4e0d6;
+    --green:#1db954;
+    --green-deep:#0d7a34;
+    --green-wash:#e8f6ec;
+    --max-w:760px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'IBM Plex Sans', system-ui, sans-serif;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--green-deep);}
+  ::selection{background:var(--green-wash); color:var(--green-deep);}
+
+  .wrap{max-width:var(--max-w); margin:0 auto; padding:0 24px 96px;}
+
+  header.top{
+    padding:56px 0 28px;
+    border-bottom:1px solid var(--line);
+    margin-bottom:40px;
+  }
+  .eyebrow{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    color:var(--green-deep);
+    margin:0 0 14px;
+  }
+  h1{
+    font-family:'Newsreader', Georgia, serif;
+    font-weight:500;
+    font-size:clamp(32px, 6vw, 46px);
+    line-height:1.08;
+    margin:0 0 14px;
+    letter-spacing:-0.01em;
+  }
+  header.top p{
+    color:var(--ink-soft);
+    font-size:16px;
+    max-width:56ch;
+    margin:0;
+  }
+  .back-link{
+    display:inline-block;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12.5px;
+    color:var(--ink-soft);
+    text-decoration:none;
+    margin-bottom:18px;
+  }
+  .back-link:hover{color:var(--green-deep);}
+
+  /* Connect panel */
+  .panel{
+    border:1px solid var(--line);
+    background:#fff;
+    border-radius:10px;
+    padding:32px;
+    margin-bottom:44px;
+  }
+  .panel h2{
+    font-family:'Newsreader', serif;
+    font-weight:500;
+    font-size:22px;
+    margin:0 0 10px;
+  }
+  .panel p{color:var(--ink-soft); margin:0 0 20px; font-size:15px;}
+
+  button{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-weight:600;
+    font-size:14.5px;
+    border:none;
+    border-radius:7px;
+    padding:12px 22px;
+    cursor:pointer;
+    transition:transform .12s ease, box-shadow .12s ease, background .12s ease;
+  }
+  button:focus-visible{outline:2px solid var(--green-deep); outline-offset:2px;}
+  .btn-primary{background:var(--green); color:#08240f;}
+  .btn-primary:hover{background:#19c352; transform:translateY(-1px);}
+  .btn-secondary{background:transparent; color:var(--ink-soft); border:1px solid var(--line);}
+  .btn-secondary:hover{border-color:var(--ink-soft); color:var(--ink);}
+  button:disabled{opacity:.5; cursor:not-allowed; transform:none;}
+
+  .row-actions{display:flex; gap:10px; flex-wrap:wrap; align-items:center;}
+
+  /* Status / progress */
+  .status{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:13px;
+    color:var(--ink-soft);
+    margin-top:16px;
+    min-height:18px;
+  }
+  .progress-track{
+    width:100%; height:6px; background:var(--green-wash);
+    border-radius:99px; overflow:hidden; margin-top:10px;
+    display:none;
+  }
+  .progress-fill{
+    height:100%; width:0%; background:var(--green);
+    transition:width .25s ease;
+  }
+  .error-box{
+    background:#fdf1ee; border:1px solid #f2c9bd; color:#8a3220;
+    border-radius:8px; padding:14px 16px; font-size:14px; margin-top:16px;
+    display:none;
+  }
+
+  /* Stats */
+  .stat-grid{
+    display:grid; grid-template-columns:repeat(auto-fit, minmax(140px,1fr));
+    gap:1px; background:var(--line); border:1px solid var(--line);
+    border-radius:10px; overflow:hidden; margin-bottom:44px;
+  }
+  .stat{background:#fff; padding:22px 18px;}
+  .stat .num{
+    font-family:'Newsreader', serif; font-weight:600;
+    font-size:30px; color:var(--green-deep); line-height:1;
+  }
+  .stat .lbl{
+    font-family:'IBM Plex Mono', monospace; font-size:11.5px;
+    color:var(--ink-soft); text-transform:uppercase; letter-spacing:.05em;
+    margin-top:8px;
+  }
+
+  section.chart-section{margin-bottom:52px;}
+  section.chart-section h2{
+    font-family:'Newsreader', serif; font-weight:500; font-size:21px;
+    margin:0 0 4px;
+  }
+  section.chart-section .sub{
+    color:var(--ink-soft); font-size:14px; margin:0 0 18px;
+  }
+  .chart-box{
+    background:#fff; border:1px solid var(--line); border-radius:10px;
+    padding:20px 20px 12px;
+  }
+  .chart-box canvas{max-width:100%;}
+
+  .note{
+    font-size:13px; color:var(--ink-soft); background:var(--green-wash);
+    border:1px solid #d3ecdb; border-radius:8px; padding:12px 14px;
+    margin-top:14px;
+  }
+
+  #app-content{display:none;}
+
+  footer{
+    margin-top:60px; padding-top:24px; border-top:1px solid var(--line);
+    font-family:'IBM Plex Mono', monospace; font-size:12px; color:var(--ink-soft);
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    *{transition:none !important; scroll-behavior:auto !important;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <a class="back-link" href="/">&larr; anamaria.elek.hr</a>
+
+  <header class="top">
+    <p class="eyebrow">Personal data · Spotify</p>
+    <h1>My Liked Songs</h1>
+    <p>A live look at my Spotify library — artists, genres, release years, and how concentrated my taste really is. Pulled directly from my account, refreshed on demand.</p>
+  </header>
+
+  <div class="panel" id="connect-panel">
+    <h2>Connect to load stats</h2>
+    <p id="panel-copy">This reads only my own saved ("Liked") tracks. Nothing is stored anywhere — everything happens in this browser tab and disappears when it closes.</p>
+    <div class="row-actions">
+      <button class="btn-primary" id="btn-login">Connect with Spotify</button>
+      <button class="btn-secondary" id="btn-reload" style="display:none;">Reload latest data</button>
+      <button class="btn-secondary" id="btn-logout" style="display:none;">Disconnect</button>
+      <button class="btn-secondary" id="btn-download-csv" style="display:none;">Download data as CSV</button>
+    </div>
+    <div class="status" id="status-text"></div>
+    <div class="progress-track" id="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+    <div class="error-box" id="error-box"></div>
+  </div>
+
+  <div id="app-content">
+
+    <div class="stat-grid" id="stat-grid"></div>
+
+    <section class="chart-section">
+      <h2>Top artists</h2>
+      <p class="sub">Your 20 most-liked artists, by number of saved tracks.</p>
+      <div class="chart-box"><canvas id="chart-top-artists" height="360"></canvas></div>
+    </section>
+
+    <section class="chart-section">
+      <h2>How concentrated is your library?</h2>
+      <p class="sub">Artists ranked from most to fewest liked songs — what share of your library comes from your top few?</p>
+      <div class="chart-box"><canvas id="chart-cumulative-count" height="260"></canvas></div>
+    </section>
+
+    <section class="chart-section">
+      <p class="sub">Same curve, but the x-axis is the percentage of all your liked artists rather than a raw count.</p>
+      <div class="chart-box"><canvas id="chart-cumulative-pct" height="260"></canvas></div>
+    </section>
+
+    <section class="chart-section">
+      <h2>Top genres</h2>
+      <p class="sub">Genres are pulled from each track's primary artist — a track can carry several tags.</p>
+      <div class="chart-box"><canvas id="chart-genres" height="360"></canvas></div>
+    </section>
+
+    <section class="chart-section">
+      <h2>Songs by release year</h2>
+      <p class="sub">When the music itself was released — not when you liked it.</p>
+      <div class="chart-box"><canvas id="chart-years" height="260"></canvas></div>
+    </section>
+
+    <section class="chart-section">
+      <h2>Liked over time</h2>
+      <p class="sub">When you actually hit "like," month by month.</p>
+      <div class="chart-box"><canvas id="chart-added" height="260"></canvas></div>
+      <div class="note">Spotify's Web API no longer provides audio features (energy, valence, danceability, tempo…) or track popularity for new apps — both were deprecated in 2024–2026. Those sections aren't reproducible live anymore; my notebook analysis from an older Exportify export is the closest substitute.</div>
+    </section>
+
+  </div>
+
+  <footer>Built with the Spotify Web API · runs entirely in your browser</footer>
+</div>
+
+<script>
+/* =========================================================================
+   CONFIGURATION — edit these two lines for your own Spotify app
+   ========================================================================= */
+const CLIENT_ID = "d9116f138a864498bdf6e15ba654607c";
+const REDIRECT_URI = window.location.origin + window.location.pathname;
+const SCOPES = "user-library-read";
+
+/* =========================================================================
+   PKCE helpers
+   ========================================================================= */
+function randomString(length) {
+  const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+  let result = "";
+  const values = crypto.getRandomValues(new Uint8Array(length));
+  for (let i = 0; i < length; i++) result += chars[values[i] % chars.length];
+  return result;
+}
+
+async function sha256(plain) {
+  const encoder = new TextEncoder();
+  const data = encoder.encode(plain);
+  return crypto.subtle.digest("SHA-256", data);
+}
+
+function base64UrlEncode(buffer) {
+  let str = "";
+  const bytes = new Uint8Array(buffer);
+  for (let i = 0; i < bytes.byteLength; i++) str += String.fromCharCode(bytes[i]);
+  return btoa(str).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+}
+
+/* =========================================================================
+   Auth flow
+   ========================================================================= */
+async function redirectToSpotifyLogin() {
+  const verifier = randomString(96);
+  sessionStorage.setItem("pkce_verifier", verifier);
+  const challenge = base64UrlEncode(await sha256(verifier));
+
+  const params = new URLSearchParams({
+    client_id: CLIENT_ID,
+    response_type: "code",
+    redirect_uri: REDIRECT_URI,
+    scope: SCOPES,
+    code_challenge_method: "S256",
+    code_challenge: challenge,
+  });
+  window.location.href = `https://accounts.spotify.com/authorize?${params.toString()}`;
+}
+
+async function exchangeCodeForToken(code) {
+  const verifier = sessionStorage.getItem("pkce_verifier");
+  const body = new URLSearchParams({
+    client_id: CLIENT_ID,
+    grant_type: "authorization_code",
+    code,
+    redirect_uri: REDIRECT_URI,
+    code_verifier: verifier,
+  });
+  const res = await fetch("https://accounts.spotify.com/api/token", {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body,
+  });
+  if (!res.ok) {
+    const t = await res.text();
+    throw new Error(`Token exchange failed (${res.status}): ${t}`);
+  }
+  const json = await res.json();
+  const expiresAt = Date.now() + json.expires_in * 1000;
+  sessionStorage.setItem("access_token", json.access_token);
+  sessionStorage.setItem("token_expires_at", String(expiresAt));
+  if (json.refresh_token) sessionStorage.setItem("refresh_token", json.refresh_token);
+}
+
+async function refreshAccessToken() {
+  const refreshToken = sessionStorage.getItem("refresh_token");
+  if (!refreshToken) return false;
+  const body = new URLSearchParams({
+    client_id: CLIENT_ID,
+    grant_type: "refresh_token",
+    refresh_token: refreshToken,
+  });
+  const res = await fetch("https://accounts.spotify.com/api/token", {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body,
+  });
+  if (!res.ok) return false;
+  const json = await res.json();
+  const expiresAt = Date.now() + json.expires_in * 1000;
+  sessionStorage.setItem("access_token", json.access_token);
+  sessionStorage.setItem("token_expires_at", String(expiresAt));
+  if (json.refresh_token) sessionStorage.setItem("refresh_token", json.refresh_token);
+  return true;
+}
+
+function getStoredToken() {
+  const token = sessionStorage.getItem("access_token");
+  const expiresAt = Number(sessionStorage.getItem("token_expires_at") || 0);
+  if (!token) return null;
+  if (Date.now() > expiresAt - 30000) return null; // treat as expired 30s early
+  return token;
+}
+
+async function getValidToken() {
+  let token = getStoredToken();
+  if (token) return token;
+  const refreshed = await refreshAccessToken();
+  if (refreshed) return getStoredToken();
+  return null;
+}
+
+function logout() {
+  sessionStorage.removeItem("access_token");
+  sessionStorage.removeItem("token_expires_at");
+  sessionStorage.removeItem("refresh_token");
+  sessionStorage.removeItem("pkce_verifier");
+  location.reload();
+}
+
+/* =========================================================================
+   Spotify API calls
+   ========================================================================= */
+async function apiGet(url, token, { retries = 3 } = {}) {
+  const res = await fetch(url, { headers: { Authorization: `Bearer ${token}` } });
+  if (res.status === 429 && retries > 0) {
+    const retryAfter = Number(res.headers.get("Retry-After") || 1);
+    await new Promise((r) => setTimeout(r, (retryAfter + 0.2) * 1000));
+    return apiGet(url, token, { retries: retries - 1 });
+  }
+  if (!res.ok) {
+    const body = await res.text();
+    const err = new Error(`Spotify API error ${res.status}: ${body}`);
+    err.status = res.status;
+    throw err;
+  }
+  return res.json();
+}
+
+async function fetchAllSavedTracks(token, onProgress) {
+  const limit = 50;
+  let offset = 0;
+  let total = Infinity;
+  const items = [];
+  while (offset < total) {
+    const url = `https://api.spotify.com/v1/me/tracks?limit=${limit}&offset=${offset}`;
+    const page = await apiGet(url, token);
+    total = page.total;
+    items.push(...page.items);
+    offset += limit;
+    onProgress(items.length, total);
+    if (!page.items.length) break;
+  }
+  return items;
+}
+
+// Batch /artists is removed for new apps — fetch one at a time with limited concurrency
+async function fetchArtistGenres(artistIds, token, onProgress) {
+  const genreMap = {};
+  const concurrency = 5;
+  let index = 0;
+  let done = 0;
+
+  async function worker() {
+    while (index < artistIds.length) {
+      const myIndex = index++;
+      const id = artistIds[myIndex];
+      try {
+        const artist = await apiGet(`https://api.spotify.com/v1/artists/${id}`, token);
+        genreMap[id] = artist.genres || [];
+      } catch (e) {
+        genreMap[id] = [];
+      }
+      done++;
+      onProgress(done, artistIds.length);
+    }
+  }
+  await Promise.all(Array.from({ length: concurrency }, worker));
+  return genreMap;
+}
+
+/* =========================================================================
+   Data shaping
+   ========================================================================= */
+function shapeTracks(items) {
+  return items.map((it) => {
+    const t = it.track;
+    const primaryArtist = t.artists && t.artists[0] ? t.artists[0] : { name: "Unknown", id: null };
+    return {
+      id: t.id,
+      name: t.name,
+      artistName: primaryArtist.name,
+      artistId: primaryArtist.id,
+      allArtists: (t.artists || []).map((a) => a.name).join(", "),
+      albumName: t.album ? t.album.name : "",
+      releaseDate: t.album ? t.album.release_date : null,
+      releaseYear: t.album && t.album.release_date ? Number(t.album.release_date.slice(0, 4)) : null,
+      durationMs: t.duration_ms,
+      addedAt: it.added_at,
+    };
+  });
+}
+
+function countBy(arr, keyFn) {
+  const map = new Map();
+  for (const item of arr) {
+    const key = keyFn(item);
+    if (key === null || key === undefined) continue;
+    map.set(key, (map.get(key) || 0) + 1);
+  }
+  return map;
+}
+
+function sortMapDesc(map) {
+  return [...map.entries()].sort((a, b) => b[1] - a[1]);
+}
+
+/* =========================================================================
+   Charting
+   ========================================================================= */
+const GREEN = "#1db954";
+const GREEN_LIGHT = "#7fe0a4";
+const INK_SOFT = "#5b584f";
+
+Chart.defaults.font.family = "'IBM Plex Sans', sans-serif";
+Chart.defaults.color = INK_SOFT;
+Chart.defaults.borderColor = "#e4e0d6";
+
+function barChart(ctx, labels, data, { horizontal = true, label = "" } = {}) {
+  return new Chart(ctx, {
+    type: "bar",
+    data: {
+      labels,
+      datasets: [{ data, backgroundColor: GREEN, borderRadius: 3, maxBarThickness: horizontal ? 18 : 28 }],
+    },
+    options: {
+      indexAxis: horizontal ? "y" : "x",
+      responsive: true,
+      plugins: { legend: { display: false }, tooltip: { titleFont: { size: 12 }, bodyFont: { size: 12 } } },
+      scales: {
+        x: { grid: { display: horizontal }, ticks: { precision: 0 } },
+        y: { grid: { display: !horizontal } },
+      },
+    },
+  });
+}
+
+function lineChart(ctx, labels, data, { percentX = false, percentY = true, annotate = [] } = {}) {
+  return new Chart(ctx, {
+    type: "line",
+    data: {
+      labels,
+      datasets: [
+        {
+          data,
+          borderColor: GREEN,
+          backgroundColor: "rgba(29,185,84,0.12)",
+          fill: true,
+          borderWidth: 2.5,
+          pointRadius: 0,
+          tension: 0.15,
+        },
+      ],
+    },
+    options: {
+      responsive: true,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { ticks: { maxTicksLimit: 10 } },
+        y: { min: 0, max: percentY ? 100 : undefined, ticks: { callback: (v) => (percentY ? v + "%" : v) } },
+      },
+    },
+  });
+}
+
+function timeSeriesChart(ctx, labels, data) {
+  return new Chart(ctx, {
+    type: "line",
+    data: {
+      labels,
+      datasets: [
+        {
+          data,
+          borderColor: GREEN,
+          backgroundColor: "rgba(29,185,84,0.1)",
+          fill: true,
+          borderWidth: 2,
+          pointRadius: 2,
+          pointBackgroundColor: GREEN,
+        },
+      ],
+    },
+    options: {
+      responsive: true,
+      plugins: { legend: { display: false } },
+      scales: { x: { ticks: { maxTicksLimit: 12 } }, y: { min: 0, ticks: { precision: 0 } } },
+    },
+  });
+}
+
+/* =========================================================================
+   Render pipeline
+   ========================================================================= */
+function renderStats(tracks, genreCount, artistCount) {
+  const grid = document.getElementById("stat-grid");
+  const totalMs = tracks.reduce((s, t) => s + (t.durationMs || 0), 0);
+  const hours = totalMs / 3600000;
+  const stats = [
+    [tracks.length, "Liked songs"],
+    [artistCount, "Artists"],
+    [genreCount, "Genres"],
+    [hours.toFixed(0) + "h", "Total runtime"],
+  ];
+  grid.innerHTML = stats
+    .map(([num, lbl]) => `<div class="stat"><div class="num">${num}</div><div class="lbl">${lbl}</div></div>`)
+    .join("");
+}
+
+function renderAll(tracks, genreMap) {
+  const artistCounts = sortMapDesc(countBy(tracks, (t) => t.artistName));
+  const allGenres = [];
+  for (const t of tracks) {
+    const genres = genreMap[t.artistId] || [];
+    allGenres.push(...genres);
+  }
+  const genreCounts = sortMapDesc(countBy(allGenres, (g) => g));
+
+  renderStats(tracks, genreCounts.length, artistCounts.length);
+
+  // Top artists
+  const top20 = artistCounts.slice(0, 20).reverse();
+  barChart(document.getElementById("chart-top-artists"), top20.map((d) => d[0]), top20.map((d) => d[1]));
+
+  // Cumulative concentration (count-based)
+  const sortedCounts = artistCounts.map((d) => d[1]);
+  const total = sortedCounts.reduce((a, b) => a + b, 0);
+  let running = 0;
+  const cumPct = sortedCounts.map((c) => {
+    running += c;
+    return (running / total) * 100;
+  });
+  const nLabels = sortedCounts.map((_, i) => i + 1);
+  lineChart(document.getElementById("chart-cumulative-count"), nLabels, cumPct, { percentY: true });
+
+  // Cumulative concentration (% of artists)
+  const pctLabels = sortedCounts.map((_, i) => (((i + 1) / sortedCounts.length) * 100).toFixed(0));
+  lineChart(document.getElementById("chart-cumulative-pct"), pctLabels, cumPct, { percentX: true, percentY: true });
+
+  // Genres
+  const topGenres = genreCounts.slice(0, 20).reverse();
+  barChart(document.getElementById("chart-genres"), topGenres.map((d) => d[0]), topGenres.map((d) => d[1]));
+
+  // Release years
+  const yearCounts = countBy(tracks, (t) => t.releaseYear);
+  const years = [...yearCounts.keys()].sort((a, b) => a - b);
+  barChart(document.getElementById("chart-years"), years, years.map((y) => yearCounts.get(y)), { horizontal: false });
+
+  // Added over time (by month)
+  const monthCounts = countBy(tracks, (t) => (t.addedAt || "").slice(0, 7));
+  const months = [...monthCounts.keys()].sort();
+  timeSeriesChart(document.getElementById("chart-added"), months, months.map((m) => monthCounts.get(m)));
+
+  document.getElementById("app-content").style.display = "block";
+}
+
+/* =========================================================================
+   CSV export
+   ========================================================================= */
+function tracksToCsv(tracks, genreMap) {
+  const header = ["Track Name", "Primary Artist", "All Artists", "Album", "Release Date", "Duration (ms)", "Added At", "Genres"];
+  const rows = tracks.map((t) => [
+    t.name,
+    t.artistName,
+    t.allArtists,
+    t.albumName,
+    t.releaseDate || "",
+    t.durationMs,
+    t.addedAt,
+    (genreMap[t.artistId] || []).join("; "),
+  ]);
+  const escape = (v) => `"${String(v).replace(/"/g, '""')}"`;
+  return [header, ...rows].map((r) => r.map(escape).join(",")).join("\n");
+}
+
+function downloadCsv(csvText) {
+  const blob = new Blob([csvText], { type: "text/csv;charset=utf-8;" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = `liked_songs_${new Date().toISOString().slice(0, 10)}.csv`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+/* =========================================================================
+   UI wiring
+   ========================================================================= */
+const statusText = document.getElementById("status-text");
+const progressTrack = document.getElementById("progress-track");
+const progressFill = document.getElementById("progress-fill");
+const errorBox = document.getElementById("error-box");
+
+function setStatus(msg) {
+  statusText.textContent = msg || "";
+}
+function setProgress(fraction) {
+  if (fraction === null) {
+    progressTrack.style.display = "none";
+    return;
+  }
+  progressTrack.style.display = "block";
+  progressFill.style.width = `${Math.round(fraction * 100)}%`;
+}
+function showError(msg) {
+  errorBox.textContent = msg;
+  errorBox.style.display = "block";
+}
+function clearError() {
+  errorBox.style.display = "none";
+  errorBox.textContent = "";
+}
+
+let lastTracks = null;
+let lastGenreMap = null;
+
+async function loadStats() {
+  clearError();
+  const token = await getValidToken();
+  if (!token) {
+    showError("Your session expired. Reconnect with Spotify below.");
+    document.getElementById("btn-login").style.display = "inline-block";
+    return;
+  }
+
+  try {
+    setStatus("Fetching your liked songs…");
+    setProgress(0);
+    const items = await fetchAllSavedTracks(token, (loaded, total) => {
+      setStatus(`Fetching your liked songs… ${loaded} / ${total}`);
+      setProgress(total ? loaded / total : 0);
+    });
+    const tracks = shapeTracks(items);
+
+    const uniqueArtistIds = [...new Set(tracks.map((t) => t.artistId).filter(Boolean))];
+    setStatus(`Fetching genres for ${uniqueArtistIds.length} artists…`);
+    setProgress(0);
+    const genreMap = await fetchArtistGenres(uniqueArtistIds, token, (done, total) => {
+      setStatus(`Fetching genres for ${total} artists… ${done} / ${total}`);
+      setProgress(total ? done / total : 0);
+    });
+
+    lastTracks = tracks;
+    lastGenreMap = genreMap;
+
+    setStatus(`Done — ${tracks.length} songs loaded.`);
+    setProgress(null);
+    renderAll(tracks, genreMap);
+
+    document.getElementById("btn-reload").style.display = "inline-block";
+    document.getElementById("btn-logout").style.display = "inline-block";
+    document.getElementById("btn-download-csv").style.display = "inline-block";
+    document.getElementById("btn-login").style.display = "none";
+    document.getElementById("panel-copy").textContent = "Connected. Data is refetched fresh from Spotify each time you reload.";
+  } catch (e) {
+    console.error(e);
+    setProgress(null);
+    if (e.status === 403) {
+      showError(
+        "Spotify returned 403 Forbidden. If this app is in Development Mode, make sure your Spotify account is added to its allowlist in the Developer Dashboard (Settings → Users Management)."
+      );
+    } else {
+      showError(`Something went wrong: ${e.message}`);
+    }
+    setStatus("");
+  }
+}
+
+document.getElementById("btn-login").addEventListener("click", redirectToSpotifyLogin);
+document.getElementById("btn-reload").addEventListener("click", loadStats);
+document.getElementById("btn-logout").addEventListener("click", logout);
+document.getElementById("btn-download-csv").addEventListener("click", () => {
+  if (!lastTracks) return;
+  downloadCsv(tracksToCsv(lastTracks, lastGenreMap));
+});
+
+(async function init() {
+  if (CLIENT_ID === "YOUR_SPOTIFY_CLIENT_ID_HERE") {
+    showError("This app isn't configured yet — set CLIENT_ID near the top of the <script> in index.html to your own Spotify app's Client ID.");
+    return;
+  }
+
+  const urlParams = new URLSearchParams(window.location.search);
+  const code = urlParams.get("code");
+  const authError = urlParams.get("error");
+
+  if (authError) {
+    showError(`Spotify login was not completed (${authError}).`);
+    window.history.replaceState({}, document.title, window.location.pathname);
+    return;
+  }
+
+  if (code) {
+    setStatus("Signing in…");
+    try {
+      await exchangeCodeForToken(code);
+      window.history.replaceState({}, document.title, window.location.pathname);
+    } catch (e) {
+      console.error(e);
+      showError(`Login failed: ${e.message}`);
+      setStatus("");
+      return;
+    }
+  }
+
+  const token = await getValidToken();
+  if (token) {
+    document.getElementById("btn-login").style.display = "none";
+    document.getElementById("btn-logout").style.display = "inline-block";
+    document.getElementById("btn-download-csv").style.display = "none";
+    await loadStats();
+  }
+})();
+</script>
+</body>
+</html>
